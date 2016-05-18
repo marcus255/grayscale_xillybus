@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:06:20 MST 2014
-| Date         : Wed May 18 12:13:59 2016
+| Date         : Wed May 18 13:57:42 2016
 | Host         : MarcusNotebook running 32-bit major release  (build 9200)
 | Command      : report_drc
 ------------------------------------------------------------------------------------
@@ -39,12 +39,12 @@ Related violations: <none>
 
 DPIP-1#1 Warning
 Input pipelining  
-DSP HLS_wrapper/mul_fu_320_p2 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+DSP HLS_wrapper/mul_fu_183_p2 input B is not pipelined. Pipelining DSP48 input will improve performance.
 Related violations: <none>
 
 DPOP-1#1 Warning
 Output pipelining  
-DSP HLS_wrapper/mul_fu_320_p2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+DSP HLS_wrapper/mul_fu_183_p2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
 Related violations: <none>
 
 XDCH-2#1 Warning

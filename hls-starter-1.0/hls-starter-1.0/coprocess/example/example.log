@@ -13,56 +13,19 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @I [HLS-10] Validating synthesis directives ...
 @I [HLS-10] Starting code transformations ...
 @I [HLS-10] Checking synthesizability ...
-@I [XFORM-602] Inlining function 'xilly_puts.4' into 'xilly_decprint' (coprocess/example/src/xilly_debug.c:53) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.3' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.2' into 'xillybus_wrapper' (coprocess/example/src/main.c:20) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:26) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.4' into 'xilly_decprint' (coprocess/example/src/xilly_debug.c:53) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.3' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.2' into 'xillybus_wrapper' (coprocess/example/src/main.c:20) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:26) automatically.
-@I [HLS-111] Elapsed time: 20.962 seconds; current memory usage: 44.2 MB.
+@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
+@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
+@I [HLS-111] Elapsed time: 10.517 seconds; current memory usage: 32.8 MB.
 @I [HLS-10] Starting hardware synthesis ...
 @I [HLS-10] Synthesizing 'xillybus_wrapper' ...
-@W [SYN-103] Legalizing function name 'xillybus_wrapper_xilly_puts.1' to 'xillybus_wrapper_xilly_puts_1'.
 @W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords.
 @W [SYN-107] Renaming port name 'xillybus_wrapper/out' to 'xillybus_wrapper/out_r' to avoid conflict or HDL keywords.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Scheduling module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [SCHED-11] Starting scheduling ...
-@I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.139 seconds; current memory usage: 45.4 MB.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [BIND-100] Starting micro-architecture generation ...
-@I [BIND-101] Performing variable lifetime analysis.
-@I [BIND-101] Exploring resource sharing.
-@I [BIND-101] Binding ...
-@I [BIND-100] Finished micro-architecture generation.
-@I [HLS-111] Elapsed time: 0.089 seconds; current memory usage: 45.4 MB.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Scheduling module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [SCHED-11] Starting scheduling ...
-@I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.128 seconds; current memory usage: 45.5 MB.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [BIND-100] Starting micro-architecture generation ...
-@I [BIND-101] Performing variable lifetime analysis.
-@I [BIND-101] Exploring resource sharing.
-@I [BIND-101] Binding ...
-@I [BIND-100] Finished micro-architecture generation.
-@I [HLS-111] Elapsed time: 0.048 seconds; current memory usage: 45.5 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'xillybus_wrapper' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.372 seconds; current memory usage: 46.2 MB.
+@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 33.6 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -71,17 +34,7 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-111] Elapsed time: 0.111 seconds; current memory usage: 46.2 MB.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Generating RTL for module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper_xilly_decprint'.
-@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 46.1 MB.
-@I [HLS-10] ----------------------------------------------------------------
-@I [HLS-10] -- Generating RTL for module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper_xilly_puts_1'.
-@I [HLS-111] Elapsed time: 0.533 seconds; current memory usage: 46.1 MB.
+@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 33.6 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'xillybus_wrapper' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -93,24 +46,12 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @W [RTGEN-101] Global array 'p_str3' will not be exposed as RTL port.
 @W [RTGEN-101] Global scalar 'debug_ready' will be exposed as RTL port.
 @W [RTGEN-101] Global scalar 'debug_out' will be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str4' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str5' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str6' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str7' will not be exposed as RTL port.
 @I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper'.
-@I [HLS-111] Elapsed time: 0.414 seconds; current memory usage: 46 MB.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_xilly_decprint_powers10_rom' using distributed ROMs.
-@I [RTMG-278] Implementing memory 'xillybus_wrapper_xilly_decprint_out_ram' using distributed RAMs.
+@I [HLS-111] Elapsed time: 0.22 seconds; current memory usage: 33.6 MB.
 @I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str3_rom' using distributed ROMs.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str4_rom' using distributed ROMs.
-@W [RTMG-274] Memory 'xillybus_wrapper_p_str5' is read-only, switch it to a ROM.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str5_rom' using distributed ROMs.
-@W [RTMG-274] Memory 'xillybus_wrapper_p_str6' is read-only, switch it to a ROM.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str6_rom' using distributed ROMs.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str7_rom' using distributed ROMs.
 @I [HLS-10] Finished generating all RTL models.
 @I [WSYSC-301] Generating RTL SystemC for 'xillybus_wrapper'.
 @I [WVHDL-304] Generating RTL VHDL for 'xillybus_wrapper'.
 @I [WVLOG-307] Generating RTL Verilog for 'xillybus_wrapper'.
-@I [HLS-112] Total elapsed time: 24.142 seconds; peak memory usage: 46.2 MB.
+@I [HLS-112] Total elapsed time: 11.128 seconds; peak memory usage: 33.6 MB.
 @I [LIC-101] Checked in feature [VIVADO_HLS]

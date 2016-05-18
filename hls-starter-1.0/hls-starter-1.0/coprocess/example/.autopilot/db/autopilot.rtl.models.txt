@@ -1,10 +1,2 @@
-xillybus_wrapper_xilly_decprint_powers10
-xillybus_wrapper_xilly_decprint_out
 xillybus_wrapper_p_str3
-xillybus_wrapper_p_str4
-xillybus_wrapper_p_str5
-xillybus_wrapper_p_str6
-xillybus_wrapper_p_str7
-xillybus_wrapper_xilly_decprint
-xillybus_wrapper_xilly_puts_1
 xillybus_wrapper

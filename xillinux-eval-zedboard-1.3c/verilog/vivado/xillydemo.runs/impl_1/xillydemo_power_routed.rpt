@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:06:20 MST 2014
-| Date             : Wed May 18 12:18:25 2016
+| Date             : Wed May 18 14:04:00 2016
 | Host             : MarcusNotebook running 32-bit major release  (build 9200)
 | Command          : report_power -file xillydemo_power_routed.rpt -pb xillydemo_power_summary_routed.pb
 | Design           : xillydemo
@@ -49,17 +49,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.020 |        6 |       --- |             --- |
-| Slice Logic              |     0.013 |    11247 |       --- |             --- |
-|   LUT as Logic           |     0.011 |     4441 |     53200 |            8.34 |
-|   CARRY4                 |    <0.001 |      328 |     13300 |            2.46 |
-|   Register               |    <0.001 |     4906 |    106400 |            4.61 |
-|   LUT as Distributed RAM |    <0.001 |      277 |     17400 |            1.59 |
+| Clocks                   |     0.019 |        6 |       --- |             --- |
+| Slice Logic              |     0.013 |    10760 |       --- |             --- |
+|   LUT as Logic           |     0.011 |     4250 |     53200 |            7.98 |
+|   Register               |    <0.001 |     4700 |    106400 |            4.41 |
+|   CARRY4                 |    <0.001 |      311 |     13300 |            2.33 |
+|   LUT as Distributed RAM |    <0.001 |      270 |     17400 |            1.55 |
 |   F7/F8 Muxes            |    <0.001 |       45 |     53200 |            0.08 |
 |   LUT as Shift Register  |    <0.001 |       67 |     17400 |            0.38 |
-|   Others                 |     0.000 |      642 |       --- |             --- |
-| Signals                  |     0.017 |     8037 |       --- |             --- |
-| Block RAM                |     0.008 |        5 |       140 |            3.57 |
+|   Others                 |     0.000 |      628 |       --- |             --- |
+| Signals                  |     0.017 |     7719 |       --- |             --- |
+| Block RAM                |     0.009 |        5 |       140 |            3.57 |
 | PLL                      |     0.106 |        1 |         4 |           25.00 |
 | DSPs                     |     0.000 |        1 |       220 |            0.45 |
 | I/O                      |     0.045 |       85 |       200 |           42.50 |
@@ -155,30 +155,9 @@ Table of Contents
 | Name                                                          | Power (W) |
 +---------------------------------------------------------------+-----------+
 | xillydemo                                                     |     1.742 |
-|   HLS_wrapper                                                 |     0.001 |
-|     grp_xillybus_wrapper_xilly_decprint_fu_172                |    <0.001 |
-|       out_U                                                   |    <0.001 |
-|         xillybus_wrapper_xilly_decprint_out_ram_U             |    <0.001 |
-|           ram_reg_0_15_0_0                                    |    <0.001 |
-|           ram_reg_0_15_1_1                                    |    <0.001 |
-|           ram_reg_0_15_2_2                                    |    <0.001 |
-|           ram_reg_0_15_3_3                                    |    <0.001 |
-|           ram_reg_0_15_4_4                                    |    <0.001 |
-|           ram_reg_0_15_6_6                                    |    <0.001 |
-|           ram_reg_0_15_7_7                                    |    <0.001 |
-|       powers10_U                                              |    <0.001 |
-|         xillybus_wrapper_xilly_decprint_powers10_rom_U        |    <0.001 |
-|     grp_xillybus_wrapper_xilly_puts_1_fu_183                  |    <0.001 |
+|   HLS_wrapper                                                 |    <0.001 |
 |     p_str3_U                                                  |    <0.001 |
 |       xillybus_wrapper_p_str3_rom_U                           |    <0.001 |
-|     p_str4_U                                                  |    <0.001 |
-|       xillybus_wrapper_p_str4_rom_U                           |    <0.001 |
-|     p_str5_U                                                  |    <0.001 |
-|       xillybus_wrapper_p_str5_rom_U                           |    <0.001 |
-|     p_str6_U                                                  |    <0.001 |
-|       xillybus_wrapper_p_str6_rom_U                           |    <0.001 |
-|     p_str7_U                                                  |    <0.001 |
-|       xillybus_wrapper_p_str7_rom_U                           |    <0.001 |
 |   PS_GPIO_IOBUF[0]_inst                                       |    <0.001 |
 |   PS_GPIO_IOBUF[10]_inst                                      |    <0.001 |
 |   PS_GPIO_IOBUF[11]_inst                                      |    <0.001 |
@@ -288,11 +267,11 @@ Table of Contents
 |   demoarray_reg_0_31_5_5                                      |    <0.001 |
 |   demoarray_reg_0_31_6_6                                      |    <0.001 |
 |   demoarray_reg_0_31_7_7                                      |    <0.001 |
-|   fifo_8                                                      |     0.002 |
-|     U0                                                        |     0.002 |
-|       inst_fifo_gen                                           |     0.002 |
-|         gconvfifo.rf                                          |     0.002 |
-|           grf.rf                                              |     0.002 |
+|   fifo_8                                                      |    <0.001 |
+|     U0                                                        |    <0.001 |
+|       inst_fifo_gen                                           |    <0.001 |
+|         gconvfifo.rf                                          |    <0.001 |
+|           grf.rf                                              |    <0.001 |
 |             gntv_or_sync_fifo.gl0.rd                          |    <0.001 |
 |               grss.rsts                                       |    <0.001 |
 |                 c1                                            |    <0.001 |
@@ -303,13 +282,13 @@ Table of Contents
 |                 c0                                            |     0.000 |
 |                 c1                                            |    <0.001 |
 |               wpntr                                           |    <0.001 |
-|             gntv_or_sync_fifo.mem                             |     0.001 |
-|               gbm.gbmg.gbmga.ngecc.bmg                        |     0.001 |
-|                 inst_blk_mem_gen                              |     0.001 |
-|                   gnativebmg.native_blk_mem_gen               |     0.001 |
-|                     valid.cstr                                |     0.001 |
-|                       ramloop[0].ram.r                        |     0.001 |
-|                         prim_noinit.ram                       |     0.001 |
+|             gntv_or_sync_fifo.mem                             |    <0.001 |
+|               gbm.gbmg.gbmga.ngecc.bmg                        |    <0.001 |
+|                 inst_blk_mem_gen                              |    <0.001 |
+|                   gnativebmg.native_blk_mem_gen               |    <0.001 |
+|                     valid.cstr                                |    <0.001 |
+|                       ramloop[0].ram.r                        |    <0.001 |
+|                         prim_noinit.ram                       |    <0.001 |
 |   fifo_from_function                                          |     0.001 |
 |     U0                                                        |     0.001 |
 |       inst_fifo_gen                                           |     0.001 |
@@ -332,11 +311,11 @@ Table of Contents
 |                     valid.cstr                                |     0.001 |
 |                       ramloop[0].ram.r                        |     0.001 |
 |                         prim_noinit.ram                       |     0.001 |
-|   fifo_to_function                                            |    <0.001 |
-|     U0                                                        |    <0.001 |
-|       inst_fifo_gen                                           |    <0.001 |
-|         gconvfifo.rf                                          |    <0.001 |
-|           grf.rf                                              |    <0.001 |
+|   fifo_to_function                                            |     0.002 |
+|     U0                                                        |     0.002 |
+|       inst_fifo_gen                                           |     0.002 |
+|         gconvfifo.rf                                          |     0.002 |
+|           grf.rf                                              |     0.002 |
 |             gntv_or_sync_fifo.gl0.rd                          |    <0.001 |
 |               grss.rsts                                       |    <0.001 |
 |                 c1                                            |     0.000 |
@@ -347,13 +326,13 @@ Table of Contents
 |                 c0                                            |    <0.001 |
 |                 c1                                            |    <0.001 |
 |               wpntr                                           |    <0.001 |
-|             gntv_or_sync_fifo.mem                             |    <0.001 |
-|               gbm.gbmg.gbmga.ngecc.bmg                        |    <0.001 |
-|                 inst_blk_mem_gen                              |    <0.001 |
-|                   gnativebmg.native_blk_mem_gen               |    <0.001 |
-|                     valid.cstr                                |    <0.001 |
-|                       ramloop[0].ram.r                        |    <0.001 |
-|                         prim_noinit.ram                       |    <0.001 |
+|             gntv_or_sync_fifo.mem                             |     0.002 |
+|               gbm.gbmg.gbmga.ngecc.bmg                        |     0.002 |
+|                 inst_blk_mem_gen                              |     0.002 |
+|                   gnativebmg.native_blk_mem_gen               |     0.002 |
+|                     valid.cstr                                |     0.002 |
+|                       ramloop[0].ram.r                        |     0.002 |
+|                         prim_noinit.ram                       |     0.002 |
 |   litearray0_reg_0_31_0_0                                     |    <0.001 |
 |   litearray0_reg_0_31_1_1                                     |    <0.001 |
 |   litearray0_reg_0_31_2_2                                     |    <0.001 |

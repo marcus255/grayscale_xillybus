@@ -30,7 +30,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/systemc/include"/>
-									<listOptionValue builtIn="false" value="C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.876659051" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="AESL_TB"/>
@@ -57,7 +56,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/systemc/include"/>
-									<listOptionValue builtIn="false" value="C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0"/>
 								</option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.235237390" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="AESL_TB"/>
@@ -134,7 +132,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/systemc/include"/>
-									<listOptionValue builtIn="false" value="C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.729174213" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
@@ -147,7 +144,6 @@
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/include/etc"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/auto_cc/include"/>
 									<listOptionValue builtIn="false" value="C:/Xilinx/Vivado_HLS/2014.4/win32/tools/systemc/include"/>
-									<listOptionValue builtIn="false" value="C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1995870249" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>

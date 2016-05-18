@@ -12,8 +12,8 @@ use ieee.std_logic_unsigned.all;
 entity xillybus_wrapper_p_str3_rom is 
     generic(
              dwidth     : integer := 7; 
-             awidth     : integer := 4; 
-             mem_size    : integer := 16
+             awidth     : integer := 5; 
+             mem_size    : integer := 17
     ); 
     port (
           addr0      : in std_logic_vector(awidth-1 downto 0); 
@@ -30,9 +30,10 @@ signal addr0_tmp : std_logic_vector(awidth-1 downto 0);
 type mem_array is array (0 to mem_size-1) of std_logic_vector (dwidth-1 downto 0); 
 signal mem : mem_array := (
     0 => "1010000", 1 => "1101001", 2 => "1111000", 3 => "1100101", 
-    4 => "1101100", 5 => "0100000", 6 => "1101001", 7 => "1101110", 
-    8 => "1100011", 9 => "1101111", 10 => "1101101", 11 => "1101001", 
-    12 => "1101110", 13 => "1100111", 14 => "0001010", 15 => "0000000" );
+    4 => "1101100", 5 => "1110011", 6 => "0100000", 7 => "1101001", 
+    8 => "1101110", 9 => "1100011", 10 => "1101111", 11 => "1101101", 
+    12 => "1101001", 13 => "1101110", 14 => "1100111", 15 => "0001010", 
+    16 => "0000000" );
 
 attribute syn_rom_style : string;
 attribute syn_rom_style of mem : signal is "select_rom";
@@ -73,8 +74,8 @@ use IEEE.std_logic_1164.all;
 entity xillybus_wrapper_p_str3 is
     generic (
         DataWidth : INTEGER := 7;
-        AddressRange : INTEGER := 16;
-        AddressWidth : INTEGER := 4);
+        AddressRange : INTEGER := 17;
+        AddressWidth : INTEGER := 5);
     port (
         reset : IN STD_LOGIC;
         clk : IN STD_LOGIC;

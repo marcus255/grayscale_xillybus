@@ -22,8 +22,8 @@ using namespace sc_dt;
 struct xillybus_wrapper_p_str3_ram : public sc_core::sc_module {
 
   static const unsigned DataWidth = 7;
-  static const unsigned AddressRange = 16;
-  static const unsigned AddressWidth = 4;
+  static const unsigned AddressRange = 17;
+  static const unsigned AddressWidth = 5;
 
 //latency = 1
 //input_reg = 1
@@ -44,17 +44,18 @@ sc_lv<DataWidth> ram[AddressRange];
         ram[2] = "0b1111000";
         ram[3] = "0b1100101";
         ram[4] = "0b1101100";
-        ram[5] = "0b0100000";
-        ram[6] = "0b1101001";
-        ram[7] = "0b1101110";
-        ram[8] = "0b1100011";
-        ram[9] = "0b1101111";
-        ram[10] = "0b1101101";
-        ram[11] = "0b1101001";
-        ram[12] = "0b1101110";
-        ram[13] = "0b1100111";
-        ram[14] = "0b0001010";
-        ram[15] = "0b0000000";
+        ram[5] = "0b1110011";
+        ram[6] = "0b0100000";
+        ram[7] = "0b1101001";
+        ram[8] = "0b1101110";
+        ram[9] = "0b1100011";
+        ram[10] = "0b1101111";
+        ram[11] = "0b1101101";
+        ram[12] = "0b1101001";
+        ram[13] = "0b1101110";
+        ram[14] = "0b1100111";
+        ram[15] = "0b0001010";
+        ram[16] = "0b0000000";
 
 
 SC_METHOD(prc_write_0);
@@ -81,8 +82,8 @@ SC_MODULE(xillybus_wrapper_p_str3) {
 
 
 static const unsigned DataWidth = 7;
-static const unsigned AddressRange = 16;
-static const unsigned AddressWidth = 4;
+static const unsigned AddressRange = 17;
+static const unsigned AddressWidth = 5;
 
 sc_core::sc_in <sc_lv<AddressWidth> > address0;
 sc_core::sc_in<sc_logic> ce0;

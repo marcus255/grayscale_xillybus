@@ -10,8 +10,8 @@
 addr0, ce0, q0, clk);
 
 parameter DWIDTH = 7;
-parameter AWIDTH = 4;
-parameter MEM_SIZE = 16;
+parameter AWIDTH = 5;
+parameter MEM_SIZE = 17;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -48,8 +48,8 @@ module xillybus_wrapper_p_str3(
     q0);
 
 parameter DataWidth = 32'd7;
-parameter AddressRange = 32'd16;
-parameter AddressWidth = 32'd4;
+parameter AddressRange = 32'd17;
+parameter AddressWidth = 32'd5;
 input reset;
 input clk;
 input[AddressWidth - 1:0] address0;

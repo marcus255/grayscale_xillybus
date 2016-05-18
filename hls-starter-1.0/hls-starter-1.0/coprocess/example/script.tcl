@@ -5,8 +5,8 @@
 ############################################################
 open_project coprocess
 set_top xillybus_wrapper
-add_files coprocess/example/src/main.c
 add_files coprocess/example/src/xilly_debug.c
+add_files coprocess/example/src/main.c
 open_solution "example"
 set_part {xc7z020clg400-1}
 create_clock -period 10 -name default

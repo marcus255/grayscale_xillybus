@@ -1,175 +1,175 @@
-@I [HLS-0] Workspace C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example opened at Mon May 16 17:08:47 +0200 2016
+@I [HLS-0] Workspace C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example opened at Wed May 18 13:48:41 +0200 2016
 @I [HLS-100] Command "config_clock -quiet -name default -period 10 -default=false "
 @I [SYN-201] Setting up clock 'default' with a period of 10ns.
-@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 2.718 sec.
+@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 3.80 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 2.721 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "import_lib C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx.lib "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/xilinx_interface.lib "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/plb46.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.726 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/fsl.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.727 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/axi4.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.728 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/maxi.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.729 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/saxilite.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 2.732 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008Total elapsed time: 2.732 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/dsp48.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.733 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.90 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfft.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.736 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.100 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfir.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.737 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.017Total elapsed time: 2.740 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.100 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.100 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_old.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 2.745 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.100 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_vivado.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.746 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.100 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 2.758 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.110 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.760 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.761 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 2.761 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.120 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.763 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.012Total elapsed time: 2.764 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.120 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/dsp48e1.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.765 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 2.765 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.766 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed medium "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 2.766 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.047Total elapsed time: 2.768 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.120 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.03Total elapsed time: 3.120 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 2.775 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.130 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 2.777 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.130 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 2.782 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.140 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.007Total elapsed time: 2.790 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.140 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.017Total elapsed time: 2.808 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.026Total elapsed time: 2.808 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.160 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.160 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019Total elapsed time: 2.828 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.180 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 2.849 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.200 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 2.852 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.200 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.187Total elapsed time: 3.39 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.19Total elapsed time: 3.390 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfir.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/tps/tcl/tcllib1.11.1/struct/list.tcl "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/tps/tcl/tcllib1.11.1/cmdline/cmdline.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 3.83 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.011Total elapsed time: 3.84 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.440 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.440 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/tps/tcl/tcllib1.11.1/math/bignum.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 3.96 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.068Total elapsed time: 3.107 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.335Total elapsed time: 3.107 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.450 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.07Total elapsed time: 3.460 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.33Total elapsed time: 3.460 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 3.110 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.341Total elapsed time: 3.111 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.342Total elapsed time: 3.111 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.460 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.34Total elapsed time: 3.460 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.34Total elapsed time: 3.460 sec.
 @I [HLS-100] Command "open_platform DefaultPlatform "
-@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 3.111 sec.
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 3.460 sec.
 @I [HLS-100] Command "import_lib C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_fpv7.lib "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006Total elapsed time: 3.119 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.470 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_fpv.hlp "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx.hlp "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/target_info.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 3.144 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.500 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/xilinx_interface.hlp "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/maxi.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 3.146 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.500 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/saxilite.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 3.148 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 3.148 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.500 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.500 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/dsp48.hlp "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 3.150 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013Total elapsed time: 3.150 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.016Total elapsed time: 3.151 sec.
-@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.048Total elapsed time: 3.159 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.500 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.500 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 3.500 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.05Total elapsed time: 3.510 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 3.164 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 3.164 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.520 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 3.520 sec.
 @I [HLS-100] Command "set_part xc7z020clg400-1 "
 @I [HLS-100] Command "add_library xilinx/zynq/zynq:xc7z020:clg400:-1 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.175 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.520 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
 @I [LICQ-103] Checked out feature [VIVADO_HLS]
 @I [LIC-101] Checked out feature [VIVADO_HLS]
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.175 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0.01Total elapsed time: 3.530 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.180 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.530 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.180 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.530 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.180 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.011Total elapsed time: 3.184 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.530 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.01Total elapsed time: 3.530 sec.
 @I [HLS-100] Command "add_library xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.186 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.530 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.186 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.005Total elapsed time: 3.189 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.530 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.01Total elapsed time: 3.540 sec.
 @I [HLS-10] Setting target device to 'xc7z020clg400-1'
-@I [HLS-100] Command 'set_part' returned 0; elapsed 0.024Total elapsed time: 3.190 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.02Total elapsed time: 3.540 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.190 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.540 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.190 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.540 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.191 sec.
-@I [HLS-100] Command "config_autosim -O=0 -coverage=0 -ignore_init=0 -setup=0 -trace_level=none "
-@I [HLS-100] Command 'config_autosim' returned 0; elapsed 0.004Total elapsed time: 3.196 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.540 sec.
+@I [HLS-100] Command "config_autosim -O=0 -coverage=false -ignore_init=0 -setup=0 -trace_level=none "
+@I [HLS-100] Command 'config_autosim' returned 0; elapsed 0Total elapsed time: 3.540 sec.
 @I [HLS-100] Command "config_interface -all=ap_fifo -expose_global=1 "
-@I [HLS-100] Command 'config_interface' returned 0; elapsed 0.003Total elapsed time: 3.199 sec.
-@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.53Total elapsed time: 3.200 sec.
+@I [HLS-100] Command 'config_interface' returned 0; elapsed 0.01Total elapsed time: 3.550 sec.
+@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.5Total elapsed time: 3.550 sec.
 @I [HLS-100] Command "set_part xc7z020clg400-1 "
 @I [HLS-100] Command "add_library xilinx/zynq/zynq:xc7z020:clg400:-1 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.207 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.560 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.207 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.560 sec.
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.211 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.560 sec.
 @I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 13300}  {LUT 53200}     {FF 106400} {DSP48E 220}   {BRAM 280}  "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.211 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.560 sec.
 @I [HLS-100] Command "config_chip_info -quiet -speed slow "
-@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.211 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.009Total elapsed time: 3.214 sec.
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 3.560 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0Total elapsed time: 3.560 sec.
 @I [HLS-100] Command "add_library xilinx/zynq/zynq_fpv6 "
 @I [HLS-100] Command "get_default_platform "
-@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.217 sec.
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 3.570 sec.
 @I [HLS-100] Command "license_exists VIVADO_HLS "
-@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.217 sec.
-@I [HLS-100] Command 'add_library' returned 0; elapsed 0.006Total elapsed time: 3.220 sec.
-@I [HLS-100] Command 'set_part' returned 0; elapsed 0.02Total elapsed time: 3.220 sec.
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 3.570 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.01Total elapsed time: 3.570 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.02Total elapsed time: 3.570 sec.
 @I [HLS-100] Command "create_clock -period 10 -name default "
-@I [HLS-100] Command 'create_clock' returned 0; elapsed 0.005Total elapsed time: 3.225 sec.
+@I [HLS-100] Command 'create_clock' returned 0; elapsed 0Total elapsed time: 3.570 sec.
 @I [HLS-100] Command "config_interface -all ap_fifo -expose_global "
-@I [HLS-100] Command 'config_interface' returned 0; elapsed 0.004Total elapsed time: 3.229 sec.
+@I [HLS-100] Command 'config_interface' returned 0; elapsed 0.01Total elapsed time: 3.580 sec.
 @I [HLS-100] Command "source ./coprocess/example/directives.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 3.233 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 3.580 sec.
 @I [HLS-100] Command "csynth_design "
 @I [HLS-100] Command "elaborate -effort=medium -skip_syncheck=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 "
 @I [HLS-10] Analyzing design file 'coprocess/example/src/main.c' ... 
@@ -178,21 +178,21 @@
 @I [HLS-0] 
 Checking before pre-process: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls    -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl=  "coprocess/example/src/main.c"  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.00.o"
 
-@I [HLS-0] Syntax Checker time: 1 seconds per iteration
+@I [HLS-0] Syntax Checker time: 0 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "coprocess/example/src/main.c"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl= -D "__asm__(...)="  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c"
 
-@I [HLS-0] GCC PP time: 1 seconds per iteration
+@I [HLS-0] GCC PP time: 0 seconds per iteration
 @I [HLS-100] Command "list_core -type functional_unit "
-@I [HLS-100] Command 'list_core' returned 0; elapsed 0.001Total elapsed time: 5.989 sec.
+@I [HLS-100] Command 'list_core' returned 0; elapsed 0Total elapsed time: 3.793 sec.
 @I [HLS-0] Marker-Pragma convertor: C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c.ap-line.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c.ap-line.c.CXX 1
 @I [HLS-0] 
 Source processor: exec C:/Xilinx/Vivado_HLS/2014.4/tps/win32/jre/bin/java -Xmx512m -classpath   "C:/Xilinx/Vivado_HLS/2014.4/lib/classes/autopilot.sourceprocessor.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.core.runtime_3.7.0.v20110110.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.equinox.common_3.6.0.v20110523.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/com.ibm.icu_4.4.2.v20110208.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/jargs.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.common_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c.ap-line.c"  -m "xillybus_wrapper" -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c.ap-cdt.c" -c --ad --pc --pp --directive C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/example.directive --source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/src/main.c --error C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db --funcunit "AddSub AddSub_DSP AddSubnS DAddSub_fulldsp DAddSub_nodsp DDiv DExp_fulldsp DExp_meddsp DExp_nodsp DLog_fulldsp DLog_meddsp DLog_nodsp DMul_fulldsp DMul_maxdsp DMul_meddsp DMul_nodsp DRSqrt DRecip DSqrt DivnS FAddSub_fulldsp FAddSub_nodsp FDiv FExp_fulldsp FExp_meddsp FExp_nodsp FLog_fulldsp FLog_meddsp FLog_nodsp FMul_fulldsp FMul_maxdsp FMul_meddsp FMul_nodsp FRSqrt_fulldsp FRSqrt_nodsp FRecip_fulldsp FRecip_nodsp FSqrt Mul Mul2S Mul3S Mul4S Mul5S Mul6S MulnS" --lp --ca --gf --df --pd --p2d C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db --sd --scff C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/.systemc_flag
 
 @I [HLS-0] Marker-Pragma convertor: C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pp.0.c.ap-cdt.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pragma.0.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pragma.0.c.ap-line.CXX 0
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/pragma.status.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 7.955 sec.
-@I [HLS-0] CDT processor time: 1 seconds per iteration
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 5.983 sec.
+@I [HLS-0] CDT processor time: 2 seconds per iteration
 @I [HLS-0] Pragma handling time: 0 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pragma.1.c"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl= -D "__asm__(...)="  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.pragma.2.c"
@@ -204,21 +204,21 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-0] 
 Checking before pre-process: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls    -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl=  "coprocess/example/src/xilly_debug.c"  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.00.o"
 
-@I [HLS-0] Syntax Checker time: 1 seconds per iteration
+@I [HLS-0] Syntax Checker time: 0 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "coprocess/example/src/xilly_debug.c"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl= -D "__asm__(...)="  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c"
 
-@I [HLS-0] GCC PP time: 1 seconds per iteration
+@I [HLS-0] GCC PP time: 0 seconds per iteration
 @I [HLS-100] Command "list_core -type functional_unit "
-@I [HLS-100] Command 'list_core' returned 0; elapsed 0.001Total elapsed time: 13.221 sec.
+@I [HLS-100] Command 'list_core' returned 0; elapsed 0Total elapsed time: 6.618 sec.
 @I [HLS-0] Marker-Pragma convertor: C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c.ap-line.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c.ap-line.c.CXX 1
 @I [HLS-0] 
 Source processor: exec C:/Xilinx/Vivado_HLS/2014.4/tps/win32/jre/bin/java -Xmx512m -classpath   "C:/Xilinx/Vivado_HLS/2014.4/lib/classes/autopilot.sourceprocessor.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.core.runtime_3.7.0.v20110110.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/org.eclipse.equinox.common_3.6.0.v20110523.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/com.ibm.icu_4.4.2.v20110208.jar;C:/Xilinx/Vivado_HLS/2014.4/lib/classes/jargs.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.common_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.ecore_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.10.0.v20140514-1158.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar;C:/Xilinx/Vivado_HLS/2014.4/win32/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c.ap-line.c"  -m "xillybus_wrapper" -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c.ap-cdt.c" -c --ad --pc --pp --directive C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/example.directive --source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/src/xilly_debug.c --error C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db --funcunit "AddSub AddSub_DSP AddSubnS DAddSub_fulldsp DAddSub_nodsp DDiv DExp_fulldsp DExp_meddsp DExp_nodsp DLog_fulldsp DLog_meddsp DLog_nodsp DMul_fulldsp DMul_maxdsp DMul_meddsp DMul_nodsp DRSqrt DRecip DSqrt DivnS FAddSub_fulldsp FAddSub_nodsp FDiv FExp_fulldsp FExp_meddsp FExp_nodsp FLog_fulldsp FLog_meddsp FLog_nodsp FMul_fulldsp FMul_maxdsp FMul_meddsp FMul_nodsp FRSqrt_fulldsp FRSqrt_nodsp FRecip_fulldsp FRecip_nodsp FSqrt Mul Mul2S Mul3S Mul4S Mul5S Mul6S MulnS" --lp --ca --gf --df --pd --p2d C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db --sd --scff C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/.systemc_flag
 
 @I [HLS-0] Marker-Pragma convertor: C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pp.0.c.ap-cdt.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pragma.0.c C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pragma.0.c.ap-line.CXX 0
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/pragma.status.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 15.25 sec.
-@I [HLS-0] CDT processor time: 1 seconds per iteration
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 8.688 sec.
+@I [HLS-0] CDT processor time: 2 seconds per iteration
 @I [HLS-0] Pragma handling time: 0 seconds per iteration
 @I [HLS-0] 
 Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx/Vivado_HLS/2014.4/msys" -hls -fno-exceptions  -D__llvm__  -CC -E "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pragma.1.c"     -D "__asm__(...)=" -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2014.4/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h -D__cdecl= -D "__asm__(...)="  -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.pragma.2.c"
@@ -227,7 +227,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-10] Validating synthesis directives ...
 @0 [HLS-0] Validating synthesis directives ...
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/pragma.status.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 17.720 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 8.918 sec.
 @I [HLS-0] Linking all ...
 @I [HLS-0] exec llvm-ld  "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/main.bc" "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xilly_debug.bc"  -disable-opt  -LC:/Xilinx/Vivado_HLS/2014.4/win32/lib -lm_basic -o "C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.pre"
 @I [HLS-0] Link time: 0 seconds per iteration
@@ -236,7 +236,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-0] Link time: 0 seconds per iteration
 @I [HLS-100] Command "opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 "
 @I [HLS-100] Command "cleanup_all_models "
-@I [HLS-100] Command 'cleanup_all_models' returned 0; elapsed 0Total elapsed time: 18.749 sec.
+@I [HLS-100] Command 'cleanup_all_models' returned 0; elapsed 0Total elapsed time: 9.138 sec.
 @I [HLS-10] Starting code transformations ...
 @0 [HLS-0] Starting code transformations ...
 @I [HLS-0] std xform: transform -hls -share-std-xform -always-inline -promote-dbg-pointer  -interface-preproc  -scalarrepl -mem2reg -keep-read-access -instcombine -dce  -promote-dbg-pointer  -bitop-raise  -indvars -loop-simplify -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -basicaa  -simplifycfg -mem2reg -globalopt  -global-constprop -deadargelim -instcombine -simplifycfg  -prune-eh -simplifycfg  -scalarrepl -instcombine -reassociate -licm  -simplifycfg -loop-simplify -indvars -instcombine  -simplifycfg -mem2reg -loop-simplify -indvars -instcombine  -gvn -gvn -instcombine -adce  -break-crit-edges  -simplifycfg -loop-delete  -global-array-opt -dce -dse -adce  -find-syn-modules -top xillybus_wrapper  -deadargelim  -mem2reg -instcombine -dce  -presyn-prepare -auto-rom-infer  -interface-preproc  -syn-check -check-rec-only  -find-region -simplifycfg -func-extr -function-inline  -mem2reg -instcombine -dce   -gvn -globaldce -adce -adse  -constprop -instcombine -bit-constprop  -instcombine -dce -simplifycfg -bitop-raise  -simplifycfg -dce -loop-delete -reassociate  -globalopt -global-privatize -mem2reg -dce  -global-constprop -pointer-simplify -constprop -dce  -func-inst -deadargelim  -promote-dbg-pointer  -norm-name   C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.0.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.1.bc -f  -phase std-opt
@@ -244,29 +244,23 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-10] Checking synthesizability ...
 @0 [HLS-0] Checking synthesizability ...
 @I [HLS-0] syn check 1/2: transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce  -mem2reg -instcombine -function-uniquify  -directive-preproc -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce  -array-normalize -instcombine -dce  -array-seg-normalize -instcombine -dce  -array-flatten -instcombine -dce  -array-burst -dce  -deadargelim -promote-global-argument  -function-inline -dce  -doublePtrSimplify -doublePtrElim -dce  -doublePtrSimplify -promote-dbg-pointer  -dce -scalarrepl -dse -adse -instcombine  -ptrLegalization  -simplifycfg -dce -instcombine  -pointer-simplify -ptrArgReplace -dce -instcombine   -disaggr -scalarrepl -norm-name -dce  -mem2reg -instcombine -ptrLegalization   -simplifycfg -deadargelim  -instcombine -dce -inst-simplify -function-uniquify  -directive-preproc -function-uniquify -directive-preproc -mem2reg -dse -dce  -globaldce    C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.1.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.2.prechk.bc -f
-@I [XFORM-602] Inlining function 'xilly_puts.4' into 'xilly_decprint' (coprocess/example/src/xilly_debug.c:53) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.3' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.2' into 'xillybus_wrapper' (coprocess/example/src/main.c:20) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:26) automatically.
+@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
 @I [HLS-0] Syn check 1/2 time: 0 seconds per iteration
 @I [HLS-0] syn check 2/2: transform -syn-check   C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.2.prechk.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.2.bc -f  -phase syn-check
 @I [HLS-0] Syn check 2/2 time: 0 seconds per iteration
 @I [HLS-0] Compiler optimizing ...
 @I [HLS-0] Share syncheck's 1.bc for syn flow: copy C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.g.1.bc to C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.1.bc
 @I [HLS-0] presyn 1: transform -hls -tmp C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db -type-info -function-uniquify  -directive-preproc -function-uniquify -directive-preproc -mem2reg -dse -dce  -disaggr -scalarrepl -norm-name -deadargelim  -mem2reg -instcombine -dce -auto-rom-infer -dce -function-uniquify  -directive-preproc -function-uniquify -directive-preproc -mem2reg -dse -dce  -func-buffer -dce -array-normalize  -func-legal -instcombine -gvn -constprop -dce   -ptrArgReplace -mem2reg -instcombine -dce  -array-seg-normalize -deadargelim  -instcombine -dce  -pointer-simplify -dce  -port-alignment -dce  -interface-preproc  -data-pack -instcombine -dce   -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -loop-simplify -indvars -instcombine  -gvn -loop-simplify -mem2reg -dce -simplifycfg  -find-region -instcombine  -auto-loop-pipeline  -inst-simplify  -interface-preproc  -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll  -constprop -instcombine -simplifycfg -indvars  -simplifycfg -dce -globaldce  -gvn -disable-agg-range -inst-simplify  -constprop -simplifycfg -dce  -pointer-simplify -dce  -globalopt -constprop -dce  -array-promote -constprop -instcombine -dce -auto-par -instcombine -dce  -array-transform-check  -array-partition -instcombine -simplifycfg -dce  -ptrArgReplace -global-constprop -deadargelim -mem2reg  -func-legal -instcombine -dce -global-constprop -deadargelim -mem2reg  -instcombine -simplifycfg -dce  -array-reshape -instcombine -simplifycfg -dce   -mem-intrinsic-preproc -dce  -global-privatize  -mem2reg -globaldce  -promote-global-argument  -ptrArgReplace -mem2reg -instcombine -dce  -globalopt -mergereturn -simplify-global-access -mem2reg -dce  -pointer-simplify -dce  -functionattrs  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -inst-simplify -dce -norm-name  -function-inline  -func-inst -constprop -instcombine -simplifycfg -dce  -func-legal -dce   -directive-preproc -function-uniquify -directive-preproc -mem2reg -dse -dce  -loop-bound  -arraycheck -bitwidthmin -on-by-dataflow  -loop-delete -instcombine -simplifycfg -dce -loop-simplify -simplifycfg -loop-stream -instcombine -simplifycfg -dce -globaldce  -funstream-prep -function-stream -dce -globaldce  -array-streaming -instcombine -simplifycfg -dce    -group-axi-access    -simplifycfg -dce -loop-delete  -norm-name  C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.1.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.1.tmp.bc -f
-@I [XFORM-602] Inlining function 'xilly_puts.4' into 'xilly_decprint' (coprocess/example/src/xilly_debug.c:53) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.3' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts.2' into 'xillybus_wrapper' (coprocess/example/src/main.c:20) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:26) automatically.
+@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
 @I [HLS-0] Presyn 1 time: 0 seconds per iteration
 @I [HLS-0] presyn 2: transform -hls -keep-callgraph -scalarrepl -mem2reg  -port-alignment -dce  -indvars -loop-bound  -inst-simplify -instcombine -dce  -merge-array-access -mem2reg -dce  -clean-region -mergereturn -if-conv  -instcombine -dce -constprop  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce  -scalarrepl -mem2reg  -global-constprop -deadargelim -deadargelim  -instcombine -dce -simplifycfg    -ptrArgReplace -mem2reg -function-inline  -mem2reg -instcombine -dce -expr-balance  -instcombine -dce  -bitwidthmin  -directive-preproc  -inst-rectify -instcombine -dce  -functionattrs  -constprop -instcombine -bit-constprop  -simplify-global-access  -globalopt -globaldce  -inst-simplify -instcombine -elimdeaddata -dce  -loop-delete -simplifycfg   -norm-name C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.1.tmp.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.2.bc -f  -phase presyn
 @I [HLS-0] Presyn 2 time: 0 seconds per iteration
 @I [HLS-0] build ssdm: transform -hls -function-uniquify -auto-function-inline  -loop-simplify -indvars -licm -loop-dep  -loop-bound -licm -loop-simplify -flattenloopnest  -array-flatten -gvn -instcombine -dce  -array-map -dce -func-legal  -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify   -array-burst -promote-global-argument -dce  -axi4-lower -array-seg-normalize  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm  -inst-simplify -dce  -globaldce -array-streaming -instcombine  -dce   -deadargelim -doublePtrSimplify  -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer  -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg  -instcombine  -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine  -loop-rot -constprop -cfgopt -simplifycfg -indvars -pointer-simplify -dce -loop-bound  -loop-simplify -loop-preproc  -constprop -gvn -mem2reg -instcombine -dce  -loop-merge -dce  -bitwidthmin  -interface-preproc -interface-gen  -directive-preproc -inst-simplify -dce  -gvn -mem2reg -instcombine -dce -adse  -loop-bound  -instcombine -cfgopt -simplifycfg -loop-simplify  -clean-region -io-protocol  -find-region -mem2reg  -loop-simplify -phi-opt -bitop-raise  -inst-simplify -inst-rectify -instcombine -adce -deadargelim  -cfgopt -simplifycfg -strip-dead-prototypes  -interface-lower -bitop-lower -intrinsic-lower  -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa  -inst-simplify -simplifycfg   -mergereturn -inst-simplify -inst-rectify  -dce -bitop-lower  -loop-rewind -pointer-simplify -dce -cfgopt  -norm-name -legalize -read-loop-dep -dce -bitwidth   -cdfg-build  C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.2.bc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.o.3.bc -f  -phase build-ssdm
 @I [HLS-0] Build ssdm time: 0 seconds per iteration
 @I [HLS-0] Finish building internal data model.
-@I [HLS-100] Command 'opt_and_import_c' returned 0; elapsed 1.321Total elapsed time: 20.70 sec.
-@I [HLS-111] Elapsed time: 20.962 seconds; current memory usage: 44.2 MB.
-@I [HLS-100] Command 'elaborate' returned 0; elapsed 16.845Total elapsed time: 20.78 sec.
+@I [HLS-100] Command 'opt_and_import_c' returned 0; elapsed 0.55Total elapsed time: 9.688 sec.
+@I [HLS-111] Elapsed time: 10.517 seconds; current memory usage: 32.8 MB.
+@I [HLS-100] Command 'elaborate' returned 0; elapsed 6.117Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "autosyn "
 @I [HLS-10] Starting hardware synthesis ...
 @0 [HLS-0] Starting hardware synthesis ...
@@ -274,193 +268,30 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-10] Synthesizing 'xillybus_wrapper' ...
 @0 [HLS-0] Synthesizing 'xillybus_wrapper' ...
 @I [HLS-100] Command "ap_set_top_model xillybus_wrapper "
-@W [SYN-103] Legalizing function name 'xillybus_wrapper_xilly_puts.1' to 'xillybus_wrapper_xilly_puts_1'.
-@I [HLS-100] Command 'ap_set_top_model' returned 0; elapsed 0Total elapsed time: 20.81 sec.
+@I [HLS-100] Command 'ap_set_top_model' returned 0; elapsed 0Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "get_model_list xillybus_wrapper -filter all-wo-channel -topdown "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 20.81 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "preproc_iomode -model xillybus_wrapper "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0.001Total elapsed time: 20.82 sec.
-@I [HLS-100] Command "preproc_iomode -model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 20.82 sec.
-@I [HLS-100] Command "preproc_iomode -model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 20.82 sec.
+@I [HLS-100] Command 'preproc_iomode' returned 0; elapsed 0Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "get_model_list xillybus_wrapper -filter all-wo-channel "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 20.83 sec.
-@I [HLS-0] Model list for configure: xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper
-@I [HLS-0] Configuring Module : xillybus_wrapper_xilly_decprint ...
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.83 sec.
-@I [HLS-100] Command "apply_spec_resource_limit xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 20.83 sec.
-@I [HLS-0] Configuring Module : xillybus_wrapper_xilly_puts.1 ...
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.83 sec.
-@I [HLS-100] Command "apply_spec_resource_limit xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 20.83 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 9.698 sec.
+@I [HLS-0] Model list for configure: xillybus_wrapper
 @I [HLS-0] Configuring Module : xillybus_wrapper ...
 @I [HLS-100] Command "set_default_model xillybus_wrapper "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0.001Total elapsed time: 20.84 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "apply_spec_resource_limit xillybus_wrapper "
-@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 20.84 sec.
-@I [HLS-0] Model list for preprocess: xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper
-@I [HLS-0] Preprocessing Module: xillybus_wrapper_xilly_decprint ...
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.84 sec.
-@I [HLS-100] Command "cdfg_preprocess -model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0.001Total elapsed time: 20.85 sec.
-@I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.001Total elapsed time: 20.86 sec.
-@I [HLS-0] Preprocessing Module: xillybus_wrapper_xilly_puts.1 ...
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.86 sec.
-@I [HLS-100] Command "cdfg_preprocess -model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0Total elapsed time: 20.86 sec.
-@I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.001Total elapsed time: 20.87 sec.
+@I [HLS-100] Command 'apply_spec_resource_limit' returned 0; elapsed 0Total elapsed time: 9.698 sec.
+@I [HLS-0] Model list for preprocess: xillybus_wrapper
 @I [HLS-0] Preprocessing Module: xillybus_wrapper ...
 @I [HLS-100] Command "set_default_model xillybus_wrapper "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.88 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 9.698 sec.
 @I [HLS-100] Command "cdfg_preprocess -model xillybus_wrapper "
-@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0.001Total elapsed time: 20.89 sec.
+@I [HLS-100] Command 'cdfg_preprocess' returned 0; elapsed 0.01Total elapsed time: 9.708 sec.
 @I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper "
 @W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords.
 @W [SYN-107] Renaming port name 'xillybus_wrapper/out' to 'xillybus_wrapper/out_r' to avoid conflict or HDL keywords.
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.002Total elapsed time: 20.91 sec.
-@I [HLS-0] Model list for synthesis: xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Scheduling module 'xillybus_wrapper_xilly_decprint' 
-@0 [HLS-0] -- Scheduling module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.91 sec.
-@I [HLS-100] Command "schedule -model xillybus_wrapper_xilly_decprint "
-@I [SCHED-11] Starting scheduling ...
-@I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.117Total elapsed time: 20.208 sec.
-@I [HLS-111] Elapsed time: 0.139 seconds; current memory usage: 45.4 MB.
-@I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.012Total elapsed time: 20.232 sec.
-@I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.041Total elapsed time: 20.276 sec.
-@I [HLS-0] Finish scheduling xillybus_wrapper_xilly_decprint.
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_decprint' 
-@0 [HLS-0] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.284 sec.
-@I [HLS-100] Command "bind -model xillybus_wrapper_xilly_decprint "
-@I [BIND-110] clear=
-@I [BIND-110] debug=
-@I [BIND-110] drf=
-@I [BIND-110] effort=
-@I [BIND-110] fast_refine=
-@I [BIND-110] fu_weight=[ 0.0 -- 1.0 ]
-@I [BIND-110] global_opt=
-@I [BIND-110] gsearch=
-@I [BIND-110] help=
-@I [BIND-110] help-hidden=
-@I [BIND-110] min_mem_port=
-@I [BIND-110] min_op=
-@I [BIND-110] minreg=
-@I [BIND-110] ml=
-@I [BIND-110] model=xillybus_wrapper_xilly_decprint
-@I [BIND-110] no_false_path=
-@I [BIND-110] no_min_op=
-@I [BIND-110] normalize=
-@I [BIND-110] quiet=
-@I [BIND-110] refine=
-@I [BIND-110] reg_weight=[ 0.0 -- 1.0 ]
-@I [BIND-110] search=
-@I [BIND-110] tight_delay=
-@I [BIND-110] verbose=
-@I [BIND-110] wFF=
-@I [BIND-110] wFU=
-@I [BIND-110] wMUX=
-@I [BIND-110] wNET=
-@I [BIND-100] Starting micro-architecture generation ...
-@I [BIND-101] Performing variable lifetime analysis.
-@I [BIND-101] Exploring resource sharing.
-@I [BIND-101] Binding ...
-@I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.012Total elapsed time: 20.296 sec.
-@I [HLS-111] Elapsed time: 0.089 seconds; current memory usage: 45.4 MB.
-@I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.036Total elapsed time: 20.344 sec.
-@I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.048Total elapsed time: 20.392 sec.
-@I [HLS-0] Finish binding xillybus_wrapper_xilly_decprint.
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Scheduling module 'xillybus_wrapper_xilly_puts_1' 
-@0 [HLS-0] -- Scheduling module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.395 sec.
-@I [HLS-100] Command "schedule -model xillybus_wrapper_xilly_puts.1 "
-@I [SCHED-11] Starting scheduling ...
-@I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.029Total elapsed time: 20.424 sec.
-@I [HLS-111] Elapsed time: 0.128 seconds; current memory usage: 45.5 MB.
-@I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.005Total elapsed time: 20.442 sec.
-@I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.015Total elapsed time: 20.458 sec.
-@I [HLS-0] Finish scheduling xillybus_wrapper_xilly_puts.1.
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_puts_1' 
-@0 [HLS-0] -- Exploring micro-architecture for module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "set_default_model xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.468 sec.
-@I [HLS-100] Command "bind -model xillybus_wrapper_xilly_puts.1 "
-@I [BIND-110] clear=
-@I [BIND-110] debug=
-@I [BIND-110] drf=
-@I [BIND-110] effort=
-@I [BIND-110] fast_refine=
-@I [BIND-110] fu_weight=[ 0.0 -- 1.0 ]
-@I [BIND-110] global_opt=
-@I [BIND-110] gsearch=
-@I [BIND-110] help=
-@I [BIND-110] help-hidden=
-@I [BIND-110] min_mem_port=
-@I [BIND-110] min_op=
-@I [BIND-110] minreg=
-@I [BIND-110] ml=
-@I [BIND-110] model=xillybus_wrapper_xilly_puts.1
-@I [BIND-110] no_false_path=
-@I [BIND-110] no_min_op=
-@I [BIND-110] normalize=
-@I [BIND-110] quiet=
-@I [BIND-110] refine=
-@I [BIND-110] reg_weight=[ 0.0 -- 1.0 ]
-@I [BIND-110] search=
-@I [BIND-110] tight_delay=
-@I [BIND-110] verbose=
-@I [BIND-110] wFF=
-@I [BIND-110] wFU=
-@I [BIND-110] wMUX=
-@I [BIND-110] wNET=
-@I [BIND-100] Starting micro-architecture generation ...
-@I [BIND-101] Performing variable lifetime analysis.
-@I [BIND-101] Exploring resource sharing.
-@I [BIND-101] Binding ...
-@I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.005Total elapsed time: 20.473 sec.
-@I [HLS-111] Elapsed time: 0.048 seconds; current memory usage: 45.5 MB.
-@I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 20.493 sec.
-@I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.017Total elapsed time: 20.511 sec.
-@I [HLS-0] Finish binding xillybus_wrapper_xilly_puts.1.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 9.708 sec.
+@I [HLS-0] Model list for synthesis: xillybus_wrapper
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'xillybus_wrapper' 
@@ -468,16 +299,16 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model xillybus_wrapper "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.513 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 9.708 sec.
 @I [HLS-100] Command "schedule -model xillybus_wrapper "
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-100] Command 'schedule' returned 0; elapsed 0.329Total elapsed time: 20.842 sec.
-@I [HLS-111] Elapsed time: 0.372 seconds; current memory usage: 46.2 MB.
+@I [HLS-100] Command 'schedule' returned 0; elapsed 0.16Total elapsed time: 9.868 sec.
+@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 33.6 MB.
 @I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.verbose.sched.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.009Total elapsed time: 20.867 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 9.888 sec.
 @I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.sched.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.051Total elapsed time: 20.919 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.03Total elapsed time: 9.918 sec.
 @I [HLS-0] Finish scheduling xillybus_wrapper.
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
@@ -486,7 +317,7 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-100] Command "set_default_model xillybus_wrapper "
-@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 20.925 sec.
+@I [HLS-100] Command 'set_default_model' returned 0; elapsed 0Total elapsed time: 9.918 sec.
 @I [HLS-100] Command "bind -model xillybus_wrapper "
 @I [BIND-110] clear=
 @I [BIND-110] debug=
@@ -521,79 +352,19 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-100] Command 'bind' returned 0; elapsed 0.027Total elapsed time: 20.952 sec.
-@I [HLS-111] Elapsed time: 0.111 seconds; current memory usage: 46.2 MB.
+@I [HLS-100] Command 'bind' returned 0; elapsed 0.01Total elapsed time: 9.928 sec.
+@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 33.6 MB.
 @I [HLS-100] Command "report -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.verbose.bind.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.056Total elapsed time: 21.22 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 9.948 sec.
 @I [HLS-100] Command "db_write -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.bind.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.061Total elapsed time: 21.84 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.05Total elapsed time: 9.998 sec.
 @I [HLS-0] Finish binding xillybus_wrapper.
 @I [HLS-100] Command "get_model_list xillybus_wrapper -filter all-wo-channel "
-@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 21.85 sec.
+@I [HLS-100] Command 'get_model_list' returned 0; elapsed 0Total elapsed time: 9.998 sec.
 @I [HLS-0] Preprocessing for RTLGen ...
-@I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.001Total elapsed time: 21.86 sec.
-@I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper_xilly_puts.1 "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.001Total elapsed time: 21.87 sec.
 @I [HLS-100] Command "rtl_gen_preprocess xillybus_wrapper "
-@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0.001Total elapsed time: 21.88 sec.
-@I [HLS-0] Model list for RTL generation: xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Generating RTL for module 'xillybus_wrapper_xilly_decprint' 
-@0 [HLS-0] -- Generating RTL for module 'xillybus_wrapper_xilly_decprint' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "create_rtl_model xillybus_wrapper_xilly_decprint -vendor xilinx -mg_file C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.compgen.tcl "
-@I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper_xilly_decprint'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.028Total elapsed time: 21.132 sec.
-@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 46.1 MB.
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 21.151 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_decprint -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/systemc/xillybus_wrapper_xilly_decprint -synmodules xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.005Total elapsed time: 21.157 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_decprint -style xilinx -f -lang vhdl -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/vhdl/xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.004Total elapsed time: 21.161 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_decprint -style xilinx -f -lang vlog -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_decprint "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.004Total elapsed time: 21.166 sec.
-@I [HLS-100] Command "gen_tb_info xillybus_wrapper_xilly_decprint -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint -p C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.003Total elapsed time: 21.170 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_decprint -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_xilly_decprint_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.017Total elapsed time: 21.187 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_decprint -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_xilly_decprint_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 21.197 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_decprint -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.039Total elapsed time: 21.237 sec.
-@I [HLS-100] Command "db_write -model xillybus_wrapper_xilly_decprint -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.067Total elapsed time: 21.304 sec.
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-10] -- Generating RTL for module 'xillybus_wrapper_xilly_puts_1' 
-@0 [HLS-0] -- Generating RTL for module 'xillybus_wrapper_xilly_puts_1' 
-@I [HLS-10] ----------------------------------------------------------------
-@0 [HLS-0] ----------------------------------------------------------------
-@I [HLS-100] Command "create_rtl_model xillybus_wrapper_xilly_puts.1 -vendor xilinx -mg_file C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.compgen.tcl "
-@I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper_xilly_puts_1'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.008Total elapsed time: 21.666 sec.
-@I [HLS-111] Elapsed time: 0.533 seconds; current memory usage: 46.1 MB.
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 21.685 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_puts.1 -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/systemc/xillybus_wrapper_xilly_puts_1 -synmodules xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.003Total elapsed time: 21.688 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_puts.1 -style xilinx -f -lang vhdl -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/vhdl/xillybus_wrapper_xilly_puts_1 "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.003Total elapsed time: 21.691 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper_xilly_puts.1 -style xilinx -f -lang vlog -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_puts_1 "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.002Total elapsed time: 21.693 sec.
-@I [HLS-100] Command "gen_tb_info xillybus_wrapper_xilly_puts.1 -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1 -p C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.003Total elapsed time: 21.697 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_puts.1 -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_xilly_puts_1_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.007Total elapsed time: 21.705 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_puts.1 -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_xilly_puts_1_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.005Total elapsed time: 21.710 sec.
-@I [HLS-100] Command "report -model xillybus_wrapper_xilly_puts.1 -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.012Total elapsed time: 21.723 sec.
-@I [HLS-100] Command "db_write -model xillybus_wrapper_xilly_puts.1 -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.02Total elapsed time: 21.744 sec.
+@I [HLS-100] Command 'rtl_gen_preprocess' returned 0; elapsed 0Total elapsed time: 9.998 sec.
+@I [HLS-0] Model list for RTL generation: xillybus_wrapper
 @I [HLS-10] ----------------------------------------------------------------
 @0 [HLS-0] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'xillybus_wrapper' 
@@ -609,77 +380,45 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @W [RTGEN-101] Global array 'p_str3' will not be exposed as RTL port.
 @W [RTGEN-101] Global scalar 'debug_ready' will be exposed as RTL port.
 @W [RTGEN-101] Global scalar 'debug_out' will be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str4' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str5' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str6' will not be exposed as RTL port.
-@W [RTGEN-101] Global array 'p_str7' will not be exposed as RTL port.
 @I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper'.
-@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.219Total elapsed time: 22.75 sec.
-@I [HLS-111] Elapsed time: 0.414 seconds; current memory usage: 46 MB.
+@I [HLS-100] Command 'create_rtl_model' returned 0; elapsed 0.12Total elapsed time: 10.148 sec.
+@I [HLS-111] Elapsed time: 0.22 seconds; current memory usage: 33.6 MB.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.rtl_wrap.cfg.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.007Total elapsed time: 22.101 sec.
-@I [HLS-100] Command "gen_rtl xillybus_wrapper -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/systemc/xillybus_wrapper -synmodules xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.007Total elapsed time: 22.108 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.158 sec.
+@I [HLS-100] Command "gen_rtl xillybus_wrapper -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/systemc/xillybus_wrapper -synmodules xillybus_wrapper "
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 10.168 sec.
 @I [HLS-100] Command "gen_rtl xillybus_wrapper -istop -style xilinx -f -lang vhdl -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/vhdl/xillybus_wrapper "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.014Total elapsed time: 22.122 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.01Total elapsed time: 10.178 sec.
 @I [HLS-100] Command "gen_rtl xillybus_wrapper -istop -style xilinx -f -lang vlog -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper "
-@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0.013Total elapsed time: 22.135 sec.
+@I [HLS-100] Command 'gen_rtl' returned 0; elapsed 0Total elapsed time: 10.178 sec.
 @I [HLS-100] Command "export_constraint_db -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.constraint.tcl -f -tool general "
-@I [HLS-100] Command 'export_constraint_db' returned 0; elapsed 0.001Total elapsed time: 22.136 sec.
+@I [HLS-100] Command 'export_constraint_db' returned 0; elapsed 0Total elapsed time: 10.178 sec.
 @I [HLS-100] Command "report -model xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.design.xml -verbose -f -dv "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.034Total elapsed time: 22.171 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 10.188 sec.
 @I [HLS-100] Command "gen_tb_info xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper -p C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db "
-@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.008Total elapsed time: 22.180 sec.
+@I [HLS-100] Command 'gen_tb_info' returned 0; elapsed 0.01Total elapsed time: 10.198 sec.
 @I [HLS-100] Command "report -model xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_csynth.rpt -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.022Total elapsed time: 22.202 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 10.208 sec.
 @I [HLS-100] Command "report -model xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/report/xillybus_wrapper_csynth.xml -f -x "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.009Total elapsed time: 22.211 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.01Total elapsed time: 10.218 sec.
 @I [HLS-100] Command "report -model xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.verbose.rpt -verbose -f "
-@I [HLS-100] Command 'report' returned 0; elapsed 0.067Total elapsed time: 22.284 sec.
+@I [HLS-100] Command 'report' returned 0; elapsed 0.02Total elapsed time: 10.238 sec.
 @I [HLS-100] Command "db_write -model xillybus_wrapper -o C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.adb -f "
-@I [HLS-100] Command 'db_write' returned 0; elapsed 0.082Total elapsed time: 22.366 sec.
+@I [HLS-100] Command 'db_write' returned 0; elapsed 0.04Total elapsed time: 10.278 sec.
 @I [HLS-100] Command "sc_get_clocks xillybus_wrapper "
-@I [HLS-100] Command 'sc_get_clocks' returned 0; elapsed 0Total elapsed time: 22.809 sec.
+@I [HLS-100] Command 'sc_get_clocks' returned 0; elapsed 0Total elapsed time: 10.498 sec.
 @I [HLS-100] Command "sc_get_portdomain xillybus_wrapper "
-@I [HLS-100] Command 'sc_get_portdomain' returned 0; elapsed 0Total elapsed time: 22.809 sec.
-@I [HLS-0] Model list for RTL component generation: xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts.1 xillybus_wrapper
-@I [HLS-0] Handling components in module [xillybus_wrapper_xilly_decprint] ... 
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.compgen.tcl "
-@I [HLS-0] Found component xillybus_wrapper_xilly_decprint_powers10.
-@I [HLS-0] Append model xillybus_wrapper_xilly_decprint_powers10
-@I [HLS-0] Found component xillybus_wrapper_xilly_decprint_out.
-@I [HLS-0] Append model xillybus_wrapper_xilly_decprint_out
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006Total elapsed time: 22.839 sec.
-@I [HLS-0] Handling components in module [xillybus_wrapper_xilly_puts_1] ... 
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006Total elapsed time: 22.847 sec.
+@I [HLS-100] Command 'sc_get_portdomain' returned 0; elapsed 0Total elapsed time: 10.498 sec.
+@I [HLS-0] Model list for RTL component generation: xillybus_wrapper
 @I [HLS-0] Handling components in module [xillybus_wrapper] ... 
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.compgen.tcl "
 @I [HLS-0] Found component xillybus_wrapper_p_str3.
 @I [HLS-0] Append model xillybus_wrapper_p_str3
-@I [HLS-0] Found component xillybus_wrapper_p_str4.
-@I [HLS-0] Append model xillybus_wrapper_p_str4
-@I [HLS-0] Found component xillybus_wrapper_p_str5.
-@I [HLS-0] Append model xillybus_wrapper_p_str5
-@I [HLS-0] Found component xillybus_wrapper_p_str6.
-@I [HLS-0] Append model xillybus_wrapper_p_str6
-@I [HLS-0] Found component xillybus_wrapper_p_str7.
-@I [HLS-0] Append model xillybus_wrapper_p_str7
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.009Total elapsed time: 22.857 sec.
-@I [HLS-0] Append model xillybus_wrapper_xilly_decprint
-@I [HLS-0] Append model xillybus_wrapper_xilly_puts_1
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.528 sec.
 @I [HLS-0] Append model xillybus_wrapper
 @I [HLS-0] Generating RTL model list ...
-@I [HLS-0] All models in this session: xillybus_wrapper_xilly_decprint_powers10 xillybus_wrapper_xilly_decprint_out xillybus_wrapper_p_str3 xillybus_wrapper_p_str4 xillybus_wrapper_p_str5 xillybus_wrapper_p_str6 xillybus_wrapper_p_str7 xillybus_wrapper_xilly_decprint xillybus_wrapper_xilly_puts_1 xillybus_wrapper
-@I [HLS-0] To file: write model xillybus_wrapper_xilly_decprint_powers10
-@I [HLS-0] To file: write model xillybus_wrapper_xilly_decprint_out
+@I [HLS-0] All models in this session: xillybus_wrapper_p_str3 xillybus_wrapper
 @I [HLS-0] To file: write model xillybus_wrapper_p_str3
-@I [HLS-0] To file: write model xillybus_wrapper_p_str4
-@I [HLS-0] To file: write model xillybus_wrapper_p_str5
-@I [HLS-0] To file: write model xillybus_wrapper_p_str6
-@I [HLS-0] To file: write model xillybus_wrapper_p_str7
-@I [HLS-0] To file: write model xillybus_wrapper_xilly_decprint
-@I [HLS-0] To file: write model xillybus_wrapper_xilly_puts_1
 @I [HLS-0] To file: write model xillybus_wrapper
 @I [HLS-0] Finished generating RTL model list.
 
@@ -688,82 +427,70 @@ Source preprocessing: exec clang -fno-limit-debug-info -gcc-toolchain "C:/Xilinx
 @I [HLS-0] CAS Generation done.
 @I [HLS-0] CBC Generation done.
 @I [HLS-100] Command "export_ssdm C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/a.export.ll "
-@I [HLS-100] Command 'export_ssdm' returned 0; elapsed 0.002Total elapsed time: 22.877 sec.
+@I [HLS-100] Command 'export_ssdm' returned 0; elapsed 0Total elapsed time: 10.538 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 22.893 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.558 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/generic/autopilot/common.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/generic/autopilot/APCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 22.900 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.006Total elapsed time: 22.901 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.558 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.558 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/generic/autopilot/op.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 22.903 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.558 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/generic/autopilot/op_simcore.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 22.907 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.568 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/generic/autopilot/interface.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 22.909 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.568 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 22.914 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.568 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/virtex.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/plb46.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 22.922 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.578 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/fsl.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 22.925 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.578 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/axi4.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 22.930 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.578 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/nativeAXI4.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/saxilite.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008Total elapsed time: 22.939 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.588 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/maxi.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.016Total elapsed time: 22.955 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.025Total elapsed time: 22.955 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 10.608 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.03Total elapsed time: 10.608 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/scripts/xilinxcoregen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019Total elapsed time: 22.974 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 10.628 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/interface/XilEDKCoreGen.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019Total elapsed time: 22.993 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 10.648 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/util.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 22.996 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.648 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfft.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.173Total elapsed time: 23.169 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.24Total elapsed time: 10.888 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/ip/xfir.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.059Total elapsed time: 23.228 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.31Total elapsed time: 23.228 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.06Total elapsed time: 10.948 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.38Total elapsed time: 10.948 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/dsp48.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 23.231 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.316Total elapsed time: 23.231 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.317Total elapsed time: 23.231 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.948 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.38Total elapsed time: 10.948 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.38Total elapsed time: 10.948 sec.
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/zynq/zynq_fpv6.gen "
 @I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2014.4/common/technology/xilinx/common/xilinx_fpv6.gen "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 23.237 sec.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 23.237 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.948 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.948 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 23.246 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.958 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 23.252 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.01Total elapsed time: 10.968 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/global.setting.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 23.259 sec.
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_decprint.compgen.tcl "
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_xilly_decprint_powers10_rom' using distributed ROMs.
-@I [RTMG-278] Implementing memory 'xillybus_wrapper_xilly_decprint_out_ram' using distributed RAMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.136Total elapsed time: 23.404 sec.
-@I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper_xilly_puts_1.compgen.tcl "
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.005Total elapsed time: 23.410 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0Total elapsed time: 10.978 sec.
 @I [HLS-100] Command "source C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/.autopilot/db/xillybus_wrapper.compgen.tcl "
 @I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str3_rom' using distributed ROMs.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str4_rom' using distributed ROMs.
-@W [RTMG-274] Memory 'xillybus_wrapper_p_str5' is read-only, switch it to a ROM.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str5_rom' using distributed ROMs.
-@W [RTMG-274] Memory 'xillybus_wrapper_p_str6' is read-only, switch it to a ROM.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str6_rom' using distributed ROMs.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str7_rom' using distributed ROMs.
-@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.316Total elapsed time: 23.727 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.06Total elapsed time: 11.48 sec.
 @I [HLS-10] Finished generating all RTL models.
 @0 [HLS-0] Finished generating all RTL models.
 @I [WSYSC-301] Generating RTL SystemC for 'xillybus_wrapper'.
 @I [WVHDL-304] Generating RTL VHDL for 'xillybus_wrapper'.
 @I [WVLOG-307] Generating RTL Verilog for 'xillybus_wrapper'.
-@I [HLS-100] Command 'autosyn' returned 0; elapsed 4.038Total elapsed time: 24.116 sec.
-@I [HLS-100] Command 'csynth_design' returned 0; elapsed 20.883Total elapsed time: 24.116 sec.
+@I [HLS-100] Command 'autosyn' returned 0; elapsed 1.41Total elapsed time: 11.108 sec.
+@I [HLS-100] Command 'csynth_design' returned 0; elapsed 7.527Total elapsed time: 11.108 sec.
 @I [HLS-100] Command "cleanup_all "
-@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0.009Total elapsed time: 24.126 sec.
+@I [HLS-100] Command 'cleanup_all' returned 0; elapsed 0Total elapsed time: 11.108 sec.
