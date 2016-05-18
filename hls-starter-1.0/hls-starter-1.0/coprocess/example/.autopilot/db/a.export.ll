@@ -2,13 +2,12 @@
 target datalayout = "e-p:32:32:32-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f32:32:32-f64:64:64-f80:128:128-v64:64:64-v128:128:128-a0:0:64-f80:32:32-n8:16:32-S32"
 target triple = "i686-pc-mingw32"
 
+@debug_ready = common global i8 0, align 1
+@debug_out = common global i8 0, align 1
 @p_str = private unnamed_addr constant [8 x i8] c"ap_fifo\00", align 1
 @p_str1 = private unnamed_addr constant [1 x i8] zeroinitializer, align 1
 @p_str2 = private unnamed_addr constant [13 x i8] c"ap_ctrl_none\00", align 1
-@debug_ready = common global i8 0, align 1
-@debug_out = common global i8 0, align 1
 @str = internal constant [17 x i8] c"xillybus_wrapper\00"
-@p_str3 = private unnamed_addr constant [17 x i7] [i7 -48, i7 -23, i7 -8, i7 -27, i7 -20, i7 -13, i7 32, i7 -23, i7 -18, i7 -29, i7 -17, i7 -19, i7 -23, i7 -18, i7 -25, i7 10, i7 0]
 
 define void @xillybus_wrapper(i32* %in_r, i32* %out_r) nounwind {
   call void (...)* @_ssdm_op_SpecBitsMap(i32* %in_r) nounwind, !map !12
@@ -17,29 +16,6 @@ define void @xillybus_wrapper(i32* %in_r, i32* %out_r) nounwind {
   call void (...)* @_ssdm_op_SpecInterface(i32* %in_r, [8 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32* %out_r, [8 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32 0, [13 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
-  br label %1
-
-; <label>:1                                       ; preds = %2, %0
-  %p_0_rec_i = phi i5 [ 0, %0 ], [ %p_rec_i, %2 ]
-  %p_0_rec_i_cast = zext i5 %p_0_rec_i to i32
-  %p_str3_addr = getelementptr [17 x i7]* @p_str3, i32 0, i32 %p_0_rec_i_cast
-  %p_str3_load = load i7* %p_str3_addr, align 1
-  %p_str3_load_cast = zext i7 %p_str3_load to i8
-  %tmp_i = icmp eq i5 %p_0_rec_i, -16
-  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16) nounwind
-  %p_rec_i = add i5 %p_0_rec_i, 1
-  br i1 %tmp_i, label %xilly_puts.exit, label %.preheader.i
-
-.preheader.i:                                     ; preds = %1, %.preheader.i
-  %debug_ready_load = load volatile i8* @debug_ready, align 1
-  %tmp = trunc i8 %debug_ready_load to i1
-  br i1 %tmp, label %2, label %.preheader.i
-
-; <label>:2                                       ; preds = %.preheader.i
-  store volatile i8 %p_str3_load_cast, i8* @debug_out, align 1
-  br label %1
-
-xilly_puts.exit:                                  ; preds = %1
   %in_read = call i32 @_ssdm_op_Read.ap_fifo.i32P(i32* %in_r) nounwind
   %b = trunc i32 %in_read to i8
   %r = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %in_read, i32 16, i32 23)
@@ -75,11 +51,6 @@ entry:
   ret void
 }
 
-define weak i32 @_ssdm_op_SpecLoopTripCount(...) {
-entry:
-  ret i32 0
-}
-
 define weak i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32, i32, i32) nounwind readnone {
 entry:
   %empty = call i32 @llvm.part.select.i32(i32 %0, i32 %1, i32 %2)
@@ -113,8 +84,6 @@ declare i32 @_autotb_FifoWrite_i32(i32*, i32)
 declare i32 @llvm.part.select.i32(i32, i32, i32) nounwind readnone
 
 declare i22 @llvm.part.select.i22(i22, i32, i32) nounwind readnone
-
-declare i1 @_ssdm_op_PartSelect.i1.i8.i32.i32(i8, i32, i32) nounwind readnone
 
 !llvm.map.gv = !{!0, !7}
 

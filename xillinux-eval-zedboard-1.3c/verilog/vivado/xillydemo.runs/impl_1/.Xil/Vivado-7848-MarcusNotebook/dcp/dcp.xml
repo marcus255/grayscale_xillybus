@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Checkpoint Version="4" Minor="0">
+	<BUILD_NUMBER Name="1071353"/>
+	<FULL_BUILD Name="SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014"/>
+	<Part Name="xc7z020clg484-1"/>
+	<Top Name="xillydemo"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<File Type="EDIF" Name="xillydemo.edf" ModTime="1466252991"/>
+	<File Type="VERILOG_STUB" Name="xillydemo_stub.v" ModTime="1466252991"/>
+	<File Type="VHDL_STUB" Name="xillydemo_stub.vhdl" ModTime="1466252991"/>
+	<File Type="INCR" Name="xillydemo.incr" ModTime="1466252991"/>
+	<File Type="PSR" Name="xillydemo.psr" ModTime="1466252991"/>
+	<File Type="WDF" Name="xillydemo.wdf" ModTime="1466252991"/>
+</Checkpoint>
+

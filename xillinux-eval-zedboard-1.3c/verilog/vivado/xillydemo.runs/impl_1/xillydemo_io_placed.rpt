@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:06:20 MST 2014
-| Date         : Wed May 18 13:58:59 2016
+| Date         : Wed May 18 15:52:54 2016
 | Host         : MarcusNotebook running 32-bit major release  (build 9200)
 | Command      : report_io -file xillydemo_io_placed.rpt
 | Design       : xillydemo

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Checkpoint Version="4" Minor="0">
+	<BUILD_NUMBER Name="1071353"/>
+	<FULL_BUILD Name="SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014"/>
+	<Part Name="xc7z020clg484-1"/>
+	<Top Name="fifo_32x512"/>
+	<DisableAutoIOBuffers Name="1"/>
+	<OutOfContext Name="1"/>
+	<File Type="XDC_EARLY" Name="fifo_32x512_early.xdc" ModTime="1463421522"/>
+	<File Type="EDIF" Name="fifo_32x512.edf" ModTime="1463421523"/>
+	<File Type="VERILOG_STUB" Name="fifo_32x512_stub.v" ModTime="1463421523"/>
+	<File Type="VHDL_STUB" Name="fifo_32x512_stub.vhdl" ModTime="1463421523"/>
+	<File Type="INCR" Name="fifo_32x512.incr" ModTime="1463421523"/>
+	<File Type="PSR" Name="fifo_32x512.psr" ModTime="1463421523"/>
+	<File Type="WDF" Name="fifo_32x512.wdf" ModTime="1463421523"/>
+</Checkpoint>
+

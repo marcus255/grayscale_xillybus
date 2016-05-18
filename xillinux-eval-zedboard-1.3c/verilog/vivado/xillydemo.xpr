@@ -66,9 +66,9 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xillyvga_0_0/vivado_system_xillyvga_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xillybus_ip_0_0/vivado_system_xillybus_ip_0_0.xci"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xillybus_lite_0_0/vivado_system_xillybus_lite_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xillybus_ip_0_0/vivado_system_xillybus_ip_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xillyvga_0_0/vivado_system_xillyvga_0_0.xci"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_processing_system7_0_0/vivado_system_processing_system7_0_0.xci"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_rst_processing_system7_0_100M_0/vivado_system_rst_processing_system7_0_100M_0.xci"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="ip/vivado_system_xlconcat_0_0/vivado_system_xlconcat_0_0.xci"/>
@@ -79,13 +79,6 @@
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="vivado_system_ooc.xdc"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="hw_handoff/vivado_system.hwh"/>
         <CompFileExtendedInfo CompFileName="vivado_system.bd" FileRelPathName="hw_handoff/vivado_system_bd.tcl"/>
-      </File>
-      <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str3.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
       </File>
       <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper.v">
         <FileInfo>
@@ -156,19 +149,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_generator_v12_0/hdl/fifo_generator_v12_0_vhsyn_rfs.vhd"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="blk_mem_gen_v8_2/hdl/blk_mem_gen_v8_2_vhsyn_rfs.vhd"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512_stub.vhdl"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512.dcp"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_generator_v12_0/hdl/fifo_generator_v12_0.vhd"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512/fifo_32x512.xdc"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512.xml"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512_stub.v"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512_funcsim.v"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="fifo_32x512_funcsim.vhdl"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="synth/fifo_32x512.vhd"/>
-        <CompFileExtendedInfo CompFileName="fifo_32x512.xci" FileRelPathName="blk_mem_gen_v8_2/hdl/blk_mem_gen_v8_2.vhd"/>
       </File>
       <Config>
         <Option Name="TopModule" Val="fifo_32x512"/>

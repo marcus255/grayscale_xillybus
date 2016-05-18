@@ -67,12 +67,6 @@ module xillydemo
    wire [31:0] user_w_write_32_data;
    wire        user_w_write_32_open;
 
-   // Wires related to /dev/xillybus_write_8
-   wire        user_w_write_8_wren;
-   wire        user_w_write_8_full;
-   wire [7:0]  user_w_write_8_data;
-   wire        user_w_write_8_open;
-
    // Wires related to /dev/xillybus_audio
    wire        user_r_audio_rden;
    wire        user_r_audio_empty;
@@ -142,30 +136,12 @@ module xillydemo
     .user_r_read_32_eof(user_r_read_32_eof),
     .user_r_read_32_open(user_r_read_32_open),
 
-
-    // Ports related to /dev/xillybus_read_8
-    // FPGA to CPU signals:
-    .user_r_read_8_rden(user_r_read_8_rden),
-    .user_r_read_8_empty(user_r_read_8_empty),
-    .user_r_read_8_data(user_r_read_8_data),
-    .user_r_read_8_eof(user_r_read_8_eof),
-    .user_r_read_8_open(user_r_read_8_open),
-
-
     // Ports related to /dev/xillybus_write_32
     // CPU to FPGA signals:
     .user_w_write_32_wren(user_w_write_32_wren),
     .user_w_write_32_full(user_w_write_32_full),
     .user_w_write_32_data(user_w_write_32_data),
     .user_w_write_32_open(user_w_write_32_open),
-
-
-    // Ports related to /dev/xillybus_write_8
-    // CPU to FPGA signals:
-    .user_w_write_8_wren(user_w_write_8_wren),
-    .user_w_write_8_full(user_w_write_8_full),
-    .user_w_write_8_data(user_w_write_8_data),
-    .user_w_write_8_open(user_w_write_8_open),
 
     // Ports related to /dev/xillybus_audio
     // FPGA to CPU signals:
@@ -267,9 +243,6 @@ module xillydemo
    wire [31:0] out_r_din;
    wire        out_r_full;
    wire        out_r_write;
-   wire [7:0]  debug_out_din;
-   wire        debug_out_full;
-   wire        debug_out_write;
 
    fifo_32x512 fifo_to_function
      (
@@ -307,28 +280,10 @@ module xillydemo
 
    assign  user_r_read_32_eof = 0;
 
-   fifo_8x2048 fifo_8
-     (
-      .clk(bus_clk),
-      .srst(!user_r_read_8_open),
-      .din(debug_out_din),
-      .wr_en(debug_out_write),
-      .rd_en(user_r_read_8_rden),
-      .dout(user_r_read_8_data),
-      .full(debug_out_full),
-      .empty(user_r_read_8_empty)
-      );
-
-   assign  user_r_read_8_eof = 0;
-   assign  user_w_write_8_full = 1; // Not used, hence always full
-
    xillybus_wrapper HLS_wrapper
      (
       .ap_clk(bus_clk),
       .ap_rst(!user_w_write_32_open || !user_r_read_32_open),
-      .debug_ready(!debug_out_full || !user_r_read_8_open),
-      .debug_out(debug_out_din),
-      .debug_out_ap_vld(debug_out_write),
 
       .in_r_dout(in_r_dout),
       .in_r_empty_n(in_r_empty_n),

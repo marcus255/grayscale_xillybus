@@ -8,14 +8,12 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @I [SYN-201] Setting up clock 'default' with a period of 10ns.
 @I [LIC-101] Checked out feature [VIVADO_HLS]
 @I [HLS-10] Setting target device to 'xc7z020clg400-1'
-@I [HLS-10] Analyzing design file 'coprocess/example/src/main.c' ... 
 @I [HLS-10] Analyzing design file 'coprocess/example/src/xilly_debug.c' ... 
+@I [HLS-10] Analyzing design file 'coprocess/example/src/main.c' ... 
 @I [HLS-10] Validating synthesis directives ...
 @I [HLS-10] Starting code transformations ...
 @I [HLS-10] Checking synthesizability ...
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [XFORM-602] Inlining function 'xilly_puts' into 'xillybus_wrapper' (coprocess/example/src/main.c:12) automatically.
-@I [HLS-111] Elapsed time: 10.517 seconds; current memory usage: 32.8 MB.
+@I [HLS-111] Elapsed time: 13.796 seconds; current memory usage: 32.3 MB.
 @I [HLS-10] Starting hardware synthesis ...
 @I [HLS-10] Synthesizing 'xillybus_wrapper' ...
 @W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords.
@@ -25,7 +23,7 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 33.6 MB.
+@I [HLS-111] Elapsed time: 0.314 seconds; current memory usage: 33 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'xillybus_wrapper' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -34,24 +32,18 @@ Copyright (C) 2014 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding ...
 @I [BIND-100] Finished micro-architecture generation.
-@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 33.6 MB.
+@I [HLS-111] Elapsed time: 0.114 seconds; current memory usage: 33 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'xillybus_wrapper' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-500] Setting interface mode on port 'xillybus_wrapper/in_r' to 'ap_fifo'.
 @I [RTGEN-500] Setting interface mode on port 'xillybus_wrapper/out_r' to 'ap_fifo'.
-@I [RTGEN-500] Setting interface mode on port 'xillybus_wrapper/debug_ready' to 'ap_none'.
-@I [RTGEN-500] Setting interface mode on port 'xillybus_wrapper/debug_out' to 'ap_vld'.
 @I [RTGEN-500] Setting interface mode on function 'xillybus_wrapper' to 'ap_ctrl_none'.
-@W [RTGEN-101] Global array 'p_str3' will not be exposed as RTL port.
-@W [RTGEN-101] Global scalar 'debug_ready' will be exposed as RTL port.
-@W [RTGEN-101] Global scalar 'debug_out' will be exposed as RTL port.
 @I [RTGEN-100] Finished creating RTL model for 'xillybus_wrapper'.
-@I [HLS-111] Elapsed time: 0.22 seconds; current memory usage: 33.6 MB.
-@I [RTMG-279] Implementing memory 'xillybus_wrapper_p_str3_rom' using distributed ROMs.
+@I [HLS-111] Elapsed time: 0.136 seconds; current memory usage: 33 MB.
 @I [HLS-10] Finished generating all RTL models.
 @I [WSYSC-301] Generating RTL SystemC for 'xillybus_wrapper'.
 @I [WVHDL-304] Generating RTL VHDL for 'xillybus_wrapper'.
 @I [WVLOG-307] Generating RTL Verilog for 'xillybus_wrapper'.
-@I [HLS-112] Total elapsed time: 11.128 seconds; peak memory usage: 33.6 MB.
+@I [HLS-112] Total elapsed time: 15.132 seconds; peak memory usage: 33 MB.
 @I [LIC-101] Checked in feature [VIVADO_HLS]

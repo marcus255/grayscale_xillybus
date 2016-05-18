@@ -11,12 +11,11 @@
 #include "systemc.h"
 #include "AESL_pkg.h"
 
-#include "xillybus_wrapper_p_str3.h"
 
 namespace ap_rtl {
 
 struct xillybus_wrapper : public sc_module {
-    // Port declarations 11
+    // Port declarations 8
     sc_in_clk ap_clk;
     sc_in< sc_logic > ap_rst;
     sc_in< sc_lv<32> > in_r_dout;
@@ -25,9 +24,6 @@ struct xillybus_wrapper : public sc_module {
     sc_out< sc_lv<32> > out_r_din;
     sc_in< sc_logic > out_r_full_n;
     sc_out< sc_logic > out_r_write;
-    sc_in< sc_lv<8> > debug_ready;
-    sc_out< sc_lv<8> > debug_out;
-    sc_out< sc_logic > debug_out_ap_vld;
 
 
     // Module declarations
@@ -40,67 +36,37 @@ struct xillybus_wrapper : public sc_module {
 
     ofstream mHdltvinHandle;
     ofstream mHdltvoutHandle;
-    xillybus_wrapper_p_str3* p_str3_U;
-    sc_signal< sc_lv<5> > p_str3_address0;
-    sc_signal< sc_logic > p_str3_ce0;
-    sc_signal< sc_lv<7> > p_str3_q0;
-    sc_signal< sc_lv<6> > ap_CS_fsm;
-    sc_signal< sc_logic > ap_sig_cseq_ST_st2_fsm_1;
-    sc_signal< bool > ap_sig_bdd_39;
-    sc_signal< sc_lv<1> > tmp_i_fu_100_p2;
-    sc_signal< sc_lv<1> > tmp_i_reg_208;
-    sc_signal< sc_lv<5> > p_rec_i_fu_106_p2;
-    sc_signal< sc_lv<5> > p_rec_i_reg_212;
-    sc_signal< sc_lv<8> > p_str3_load_cast_fu_112_p1;
-    sc_signal< sc_lv<8> > p_str3_load_cast_reg_217;
-    sc_signal< sc_logic > ap_sig_cseq_ST_st3_fsm_2;
-    sc_signal< bool > ap_sig_bdd_53;
-    sc_signal< bool > ap_sig_bdd_60;
-    sc_signal< sc_lv<8> > r_reg_222;
-    sc_signal< sc_lv<9> > tmp1_fu_148_p2;
-    sc_signal< sc_lv<9> > tmp1_reg_227;
-    sc_signal< sc_lv<10> > y_reg_235;
-    sc_signal< sc_logic > ap_sig_cseq_ST_st5_fsm_4;
-    sc_signal< bool > ap_sig_bdd_75;
-    sc_signal< sc_lv<5> > p_0_rec_i_reg_83;
+    sc_signal< sc_lv<8> > r_reg_130;
+    sc_signal< sc_lv<3> > ap_CS_fsm;
     sc_signal< sc_logic > ap_sig_cseq_ST_st1_fsm_0;
-    sc_signal< bool > ap_sig_bdd_85;
-    sc_signal< sc_logic > ap_sig_cseq_ST_st4_fsm_3;
-    sc_signal< bool > ap_sig_bdd_92;
-    sc_signal< sc_lv<1> > tmp_fu_158_p1;
-    sc_signal< sc_lv<32> > p_0_rec_i_cast_fu_95_p1;
-    sc_signal< sc_logic > ap_sig_cseq_ST_st6_fsm_5;
-    sc_signal< bool > ap_sig_bdd_107;
-    sc_signal< sc_lv<8> > g_fu_130_p4;
-    sc_signal< sc_lv<8> > b_fu_116_p1;
-    sc_signal< sc_lv<9> > b_cast_fu_144_p1;
-    sc_signal< sc_lv<9> > g_cast_fu_140_p1;
-    sc_signal< sc_lv<10> > tmp1_cast_fu_170_p1;
-    sc_signal< sc_lv<10> > r_cast_fu_167_p1;
-    sc_signal< sc_lv<10> > tmp_3_fu_173_p2;
-    sc_signal< sc_lv<10> > mul_fu_183_p0;
-    sc_signal< sc_lv<22> > mul_fu_183_p2;
-    sc_signal< sc_lv<6> > ap_NS_fsm;
-    sc_signal< sc_lv<22> > mul_fu_183_p00;
+    sc_signal< bool > ap_sig_bdd_26;
+    sc_signal< sc_lv<9> > tmp1_fu_88_p2;
+    sc_signal< sc_lv<9> > tmp1_reg_135;
+    sc_signal< sc_lv<10> > y_reg_140;
+    sc_signal< sc_logic > ap_sig_cseq_ST_st2_fsm_1;
+    sc_signal< bool > ap_sig_bdd_41;
+    sc_signal< sc_logic > ap_sig_cseq_ST_st3_fsm_2;
+    sc_signal< bool > ap_sig_bdd_51;
+    sc_signal< sc_lv<8> > g_fu_70_p4;
+    sc_signal< sc_lv<8> > b_fu_56_p1;
+    sc_signal< sc_lv<9> > b_cast_fu_84_p1;
+    sc_signal< sc_lv<9> > g_cast_fu_80_p1;
+    sc_signal< sc_lv<10> > tmp1_cast_fu_97_p1;
+    sc_signal< sc_lv<10> > r_cast_fu_94_p1;
+    sc_signal< sc_lv<10> > tmp_3_fu_100_p2;
+    sc_signal< sc_lv<10> > mul_fu_110_p0;
+    sc_signal< sc_lv<22> > mul_fu_110_p2;
+    sc_signal< sc_lv<3> > ap_NS_fsm;
+    sc_signal< sc_lv<22> > mul_fu_110_p00;
     static const sc_logic ap_const_logic_1;
     static const sc_logic ap_const_logic_0;
-    static const sc_lv<6> ap_ST_st1_fsm_0;
-    static const sc_lv<6> ap_ST_st2_fsm_1;
-    static const sc_lv<6> ap_ST_st3_fsm_2;
-    static const sc_lv<6> ap_ST_st4_fsm_3;
-    static const sc_lv<6> ap_ST_st5_fsm_4;
-    static const sc_lv<6> ap_ST_st6_fsm_5;
-    static const sc_lv<32> ap_const_lv32_1;
-    static const sc_lv<1> ap_const_lv1_1;
-    static const sc_lv<32> ap_const_lv32_2;
-    static const sc_lv<1> ap_const_lv1_0;
-    static const sc_lv<32> ap_const_lv32_4;
-    static const sc_lv<5> ap_const_lv5_0;
+    static const sc_lv<3> ap_ST_st1_fsm_0;
+    static const sc_lv<3> ap_ST_st2_fsm_1;
+    static const sc_lv<3> ap_ST_st3_fsm_2;
     static const sc_lv<32> ap_const_lv32_0;
-    static const sc_lv<32> ap_const_lv32_3;
-    static const sc_lv<32> ap_const_lv32_5;
-    static const sc_lv<5> ap_const_lv5_10;
-    static const sc_lv<5> ap_const_lv5_1;
+    static const sc_lv<1> ap_const_lv1_1;
+    static const sc_lv<32> ap_const_lv32_1;
+    static const sc_lv<32> ap_const_lv32_2;
     static const sc_lv<32> ap_const_lv32_10;
     static const sc_lv<32> ap_const_lv32_17;
     static const sc_lv<32> ap_const_lv32_8;
@@ -110,42 +76,26 @@ struct xillybus_wrapper : public sc_module {
     static const sc_lv<32> ap_const_lv32_15;
     // Thread declarations
     void thread_ap_clk_no_reset_();
-    void thread_ap_sig_bdd_107();
-    void thread_ap_sig_bdd_39();
-    void thread_ap_sig_bdd_53();
-    void thread_ap_sig_bdd_60();
-    void thread_ap_sig_bdd_75();
-    void thread_ap_sig_bdd_85();
-    void thread_ap_sig_bdd_92();
+    void thread_ap_sig_bdd_26();
+    void thread_ap_sig_bdd_41();
+    void thread_ap_sig_bdd_51();
     void thread_ap_sig_cseq_ST_st1_fsm_0();
     void thread_ap_sig_cseq_ST_st2_fsm_1();
     void thread_ap_sig_cseq_ST_st3_fsm_2();
-    void thread_ap_sig_cseq_ST_st4_fsm_3();
-    void thread_ap_sig_cseq_ST_st5_fsm_4();
-    void thread_ap_sig_cseq_ST_st6_fsm_5();
-    void thread_b_cast_fu_144_p1();
-    void thread_b_fu_116_p1();
-    void thread_debug_out();
-    void thread_debug_out_ap_vld();
-    void thread_g_cast_fu_140_p1();
-    void thread_g_fu_130_p4();
+    void thread_b_cast_fu_84_p1();
+    void thread_b_fu_56_p1();
+    void thread_g_cast_fu_80_p1();
+    void thread_g_fu_70_p4();
     void thread_in_r_read();
-    void thread_mul_fu_183_p0();
-    void thread_mul_fu_183_p00();
-    void thread_mul_fu_183_p2();
+    void thread_mul_fu_110_p0();
+    void thread_mul_fu_110_p00();
+    void thread_mul_fu_110_p2();
     void thread_out_r_din();
     void thread_out_r_write();
-    void thread_p_0_rec_i_cast_fu_95_p1();
-    void thread_p_rec_i_fu_106_p2();
-    void thread_p_str3_address0();
-    void thread_p_str3_ce0();
-    void thread_p_str3_load_cast_fu_112_p1();
-    void thread_r_cast_fu_167_p1();
-    void thread_tmp1_cast_fu_170_p1();
-    void thread_tmp1_fu_148_p2();
-    void thread_tmp_3_fu_173_p2();
-    void thread_tmp_fu_158_p1();
-    void thread_tmp_i_fu_100_p2();
+    void thread_r_cast_fu_94_p1();
+    void thread_tmp1_cast_fu_97_p1();
+    void thread_tmp1_fu_88_p2();
+    void thread_tmp_3_fu_100_p2();
     void thread_ap_NS_fsm();
     void thread_hdltv_gen();
 };

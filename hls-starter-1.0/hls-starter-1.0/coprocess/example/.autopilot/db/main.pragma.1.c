@@ -419,7 +419,7 @@ _ssdm_op_SpecInterface(0, "ap_ctrl_none", 0, 0, 0, 0, "", "", "");
 
  uint32_t r, g, b, y;
 
-  xilly_puts("Pixels incoming\n");
+  /* xilly_puts("Pixel incoming\n"); */
 
   // Handle input data
   r = ((*in) >> 16) & 0xFF;

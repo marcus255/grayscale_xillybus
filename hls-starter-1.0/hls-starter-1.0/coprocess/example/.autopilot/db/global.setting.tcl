@@ -38,7 +38,7 @@ set SCTraceFileName "mytrace"
 set SCTraceFileFormat "vcd"
 set SCTraceOption "all"
 set TargetInfo "xc7z020:clg400:-1"
-set SourceFiles {sc {} c {src/main.c src/xilly_debug.c}}
+set SourceFiles {sc {} c {src/xilly_debug.c src/main.c}}
 set SourceFlags {sc {} c {{} {}}}
 set DirectiveFile {C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/example.directive}
 set TBFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

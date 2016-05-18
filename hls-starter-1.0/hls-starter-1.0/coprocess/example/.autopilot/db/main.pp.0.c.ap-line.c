@@ -419,7 +419,7 @@ void xillybus_wrapper(int *in, int *out) {
 #pragma empty_line
  uint32_t r, g, b, y;
 #pragma empty_line
-  xilly_puts("Pixels incoming\n");
+  /* xilly_puts("Pixel incoming\n"); */
 #pragma empty_line
   // Handle input data
   r = ((*in) >> 16) & 0xFF;

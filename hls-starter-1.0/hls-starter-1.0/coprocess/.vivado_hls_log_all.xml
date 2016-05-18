@@ -12,12 +12,9 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="@W [RTGEN-101] Global scalar 'debug_out' will be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:48.240+0200" type="Warning"/>
-        <logs message="@W [RTGEN-101] Global scalar 'debug_ready' will be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:48.200+0200" type="Warning"/>
-        <logs message="@W [RTGEN-101] Global array 'p_str3' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:48.190+0200" type="Warning"/>
-        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/out' to 'xillybus_wrapper/out_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:47.880+0200" type="Warning"/>
-        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:47.860+0200" type="Warning"/>
-        <logs message="@W [LIC-102] License feature [VIVADO_HLS] is expiring in 5 days." projectName="coprocess" solutionName="example" date="2016-05-18T13:48:39.752+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/out' to 'xillybus_wrapper/out_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-18T14:15:12.745+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-18T14:15:12.728+0200" type="Warning"/>
+        <logs message="@W [LIC-102] License feature [VIVADO_HLS] is expiring in 5 days." projectName="coprocess" solutionName="example" date="2016-05-18T14:15:05.711+0200" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1463572226">
-  <File Type="RDS-DCP" Name="xillydemo.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1466253462">
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
-  <File Type="RDS-UTIL-PB" Name="xillydemo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="xillydemo.dcp"/>
   <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
-  <File Type="RDS-PROPCONSTRS" Name="xillydemo_drc_synth.rpt"/>
-  <File Type="PA-TCL" Name="xillydemo.tcl"/>
+  <File Type="RDS-UTIL-PB" Name="xillydemo_utilization_synth.pb"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+  <File Type="PA-TCL" Name="xillydemo.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="xillydemo_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="xillydemo.vds"/>
   <File Type="RDS-UTIL" Name="xillydemo_utilization_synth.rpt"/>
   <File Type="VDS-TIMINGSUMMARY" Name="xillydemo_timing_summary_synth.rpt"/>
@@ -57,13 +57,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../vivado-essentials/vivado_system/vivado_system.bd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str3.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:06:20 MST 2014
-| Date             : Wed May 18 14:04:00 2016
+| Date             : Wed May 18 15:55:30 2016
 | Host             : MarcusNotebook running 32-bit major release  (build 9200)
 | Command          : report_power -file xillydemo_power_routed.rpt -pb xillydemo_power_summary_routed.pb
 | Design           : xillydemo
@@ -31,7 +31,7 @@ Table of Contents
 
 +--------------------------+-------+
 | Total On-Chip Power (W)  | 1.900 |
-| Dynamic (W)              | 1.742 |
+| Dynamic (W)              | 1.741 |
 | Device Static (W)        | 0.158 |
 | Effective TJA (C/W)      | 11.5  |
 | Max Ambient (C)          | 63.1  |
@@ -49,17 +49,17 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.019 |        6 |       --- |             --- |
-| Slice Logic              |     0.013 |    10760 |       --- |             --- |
-|   LUT as Logic           |     0.011 |     4250 |     53200 |            7.98 |
-|   Register               |    <0.001 |     4700 |    106400 |            4.41 |
-|   CARRY4                 |    <0.001 |      311 |     13300 |            2.33 |
+| Clocks                   |     0.020 |        6 |       --- |             --- |
+| Slice Logic              |     0.013 |    10619 |       --- |             --- |
+|   LUT as Logic           |     0.011 |     4222 |     53200 |            7.93 |
+|   CARRY4                 |    <0.001 |      306 |     13300 |            2.30 |
+|   Register               |    <0.001 |     4637 |    106400 |            4.35 |
 |   LUT as Distributed RAM |    <0.001 |      270 |     17400 |            1.55 |
 |   F7/F8 Muxes            |    <0.001 |       45 |     53200 |            0.08 |
 |   LUT as Shift Register  |    <0.001 |       67 |     17400 |            0.38 |
-|   Others                 |     0.000 |      628 |       --- |             --- |
-| Signals                  |     0.017 |     7719 |       --- |             --- |
-| Block RAM                |     0.009 |        5 |       140 |            3.57 |
+|   Others                 |     0.000 |      605 |       --- |             --- |
+| Signals                  |     0.017 |     7640 |       --- |             --- |
+| Block RAM                |     0.008 |      4.5 |       140 |            3.21 |
 | PLL                      |     0.106 |        1 |         4 |           25.00 |
 | DSPs                     |     0.000 |        1 |       220 |            0.45 |
 | I/O                      |     0.045 |       85 |       200 |           42.50 |
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.085 |       0.068 |      0.017 |
+| Vccint    |       1.000 |     0.084 |       0.068 |      0.017 |
 | Vccaux    |       1.800 |     0.076 |       0.055 |      0.021 |
 | Vcco33    |       3.300 |     0.014 |       0.013 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -154,10 +154,8 @@ Table of Contents
 +---------------------------------------------------------------+-----------+
 | Name                                                          | Power (W) |
 +---------------------------------------------------------------+-----------+
-| xillydemo                                                     |     1.742 |
+| xillydemo                                                     |     1.741 |
 |   HLS_wrapper                                                 |    <0.001 |
-|     p_str3_U                                                  |    <0.001 |
-|       xillybus_wrapper_p_str3_rom_U                           |    <0.001 |
 |   PS_GPIO_IOBUF[0]_inst                                       |    <0.001 |
 |   PS_GPIO_IOBUF[10]_inst                                      |    <0.001 |
 |   PS_GPIO_IOBUF[11]_inst                                      |    <0.001 |
@@ -267,28 +265,6 @@ Table of Contents
 |   demoarray_reg_0_31_5_5                                      |    <0.001 |
 |   demoarray_reg_0_31_6_6                                      |    <0.001 |
 |   demoarray_reg_0_31_7_7                                      |    <0.001 |
-|   fifo_8                                                      |    <0.001 |
-|     U0                                                        |    <0.001 |
-|       inst_fifo_gen                                           |    <0.001 |
-|         gconvfifo.rf                                          |    <0.001 |
-|           grf.rf                                              |    <0.001 |
-|             gntv_or_sync_fifo.gl0.rd                          |    <0.001 |
-|               grss.rsts                                       |    <0.001 |
-|                 c1                                            |    <0.001 |
-|                 c2                                            |    <0.001 |
-|               rpntr                                           |    <0.001 |
-|             gntv_or_sync_fifo.gl0.wr                          |    <0.001 |
-|               gwss.wsts                                       |    <0.001 |
-|                 c0                                            |     0.000 |
-|                 c1                                            |    <0.001 |
-|               wpntr                                           |    <0.001 |
-|             gntv_or_sync_fifo.mem                             |    <0.001 |
-|               gbm.gbmg.gbmga.ngecc.bmg                        |    <0.001 |
-|                 inst_blk_mem_gen                              |    <0.001 |
-|                   gnativebmg.native_blk_mem_gen               |    <0.001 |
-|                     valid.cstr                                |    <0.001 |
-|                       ramloop[0].ram.r                        |    <0.001 |
-|                         prim_noinit.ram                       |    <0.001 |
 |   fifo_from_function                                          |     0.001 |
 |     U0                                                        |     0.001 |
 |       inst_fifo_gen                                           |     0.001 |
@@ -389,7 +365,7 @@ Table of Contents
 |                       valid.cstr                              |    <0.001 |
 |                         ramloop[0].ram.r                      |    <0.001 |
 |                           prim_noinit.ram                     |    <0.001 |
-|   xillybus_ins                                                |     1.686 |
+|   xillybus_ins                                                |     1.687 |
 |     system_i                                                  |     1.654 |
 |       vivado_system_i                                         |     1.654 |
 |         processing_system7_0                                  |     1.536 |
@@ -471,7 +447,7 @@ Table of Contents
 |                                     prim_noinit.ram           |    <0.001 |
 |                         rstblk                                |    <0.001 |
 |         xlconcat_0                                            |     0.000 |
-|     xillybus_core_ins                                         |     0.032 |
+|     xillybus_core_ins                                         |     0.033 |
 |       axi4_send_dma_ins/xillybus_wr_fifo/ram0/Mram_fifo_ram1  |    <0.001 |
 |       axi4_send_dma_ins/xillybus_wr_fifo/ram0/Mram_fifo_ram2  |    <0.001 |
 |       axi4_send_dma_ins/xillybus_wr_fifo/ram0/Mram_fifo_ram3  |    <0.001 |

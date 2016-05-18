@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1463572227">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1463579421">
   <File Type="PWROPT-DCP" Name="xillydemo_pwropt.dcp"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
   <File Type="PLACE-DCP" Name="xillydemo_placed.dcp"/>
@@ -91,13 +91,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../vivado-essentials/vivado_system/vivado_system.bd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str3.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

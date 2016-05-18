@@ -46,7 +46,6 @@ read_verilog -library xil_defaultlib {
   C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/src/xillybus.v
   C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/src/xillybus_core.v
   C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/system.v
-  C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str3.v
   C:/Users/marcus255/Downloads/xillydemo_ise/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper.v
 }
 set_property edif_extra_search_paths C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/cores [current_fileset]
