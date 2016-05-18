@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1463566020">
+  <File Type="PWROPT-DCP" Name="xillydemo_pwropt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PLACE-DCP" Name="xillydemo_placed.dcp"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DRC" Name="xillydemo_drc_pwropted.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="xillydemo_timing_summary_routed.rpt"/>
+  <File Type="PA-TCL" Name="xillydemo.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DCP" Name="xillydemo_opt.dcp"/>
+  <File Type="OPT-DRC" Name="xillydemo_drc_opted.rpt"/>
+  <File Type="PLACE-IO" Name="xillydemo_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="xillydemo_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="xillydemo_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="xillydemo_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="xillydemo_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="xillydemo_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="xillydemo_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="xillydemo_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="xillydemo_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="xillydemo_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="xillydemo_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="xillydemo_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="xillydemo_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="xillydemo_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="xillydemo_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="xillydemo_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="xillydemo_route_status.pb"/>
+  <File Type="ROUTE-TIMING-PB" Name="xillydemo_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="xillydemo_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="xillydemo_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="xillydemo_postroute_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="xillydemo.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="xillydemo_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="xillydemo_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="xillydemo_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="xillydemo.bit"/>
+  <File Type="BG-BIN" Name="xillydemo.bin"/>
+  <File Type="BITSTR-MSK" Name="xillydemo.msk"/>
+  <File Type="BITSTR-RBT" Name="xillydemo.rbt"/>
+  <File Type="BITSTR-NKY" Name="xillydemo.nky"/>
+  <File Type="BITSTR-BMM" Name="xillydemo_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="xillydemo.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="xillydemo.sysdef"/>
+  <File Type="BG-BGN" Name="xillydemo.bgn"/>
+  <File Type="BG-DRC" Name="xillydemo.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/xillydemo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/smbus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/i2s_audio.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/xillybus.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/xillybus_core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vivado-essentials/system.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../vivado-essentials/vivado_system/vivado_system.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../xillinux-eval-zedboard-newest/hls-starter-newest/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_big_mult_v3small_71_24_17_s_pp_V.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../xillinux-eval-zedboard-newest/hls-starter-newest/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_mul_41s_24ns_41_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_puts_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_p_str3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_decprint_powers10.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_decprint.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper_xilly_decprint_out.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="xillydemo"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../vivado-essentials/xillydemo.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../../vivado-essentials/xillydemo.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design" PostStepTclHook="C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/showstopper.tcl"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="vga_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_8x2048"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_32x512"/>
+</GenRun>

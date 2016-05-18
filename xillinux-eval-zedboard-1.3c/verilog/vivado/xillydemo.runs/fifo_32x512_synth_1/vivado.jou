@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon May 16 19:55:02 2016
+# Process ID: 8876
+# Log file: C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1/fifo_32x512.vds
+# Journal file: C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/vivado/xillydemo.runs/fifo_32x512_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_32x512.tcl

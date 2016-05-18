@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 116: Port <arg fmt="%s" index="1">MIO</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\system.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">system</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus_core.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">xillybus_core</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 124: Assignment to <arg fmt="%s" index="1">user_r_mem_8_open</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 130: Assignment to <arg fmt="%s" index="1">user_w_mem_8_open</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 134: Assignment to <arg fmt="%s" index="1">user_mem_8_addr_update</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 165: Assignment to <arg fmt="%s" index="1">user_w_write_8_wren</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 167: Assignment to <arg fmt="%s" index="1">user_w_write_8_data</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 168: Assignment to <arg fmt="%s" index="1">user_w_write_8_open</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 200: Assignment to <arg fmt="%s" index="1">user_wren</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_32x512.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">fifo_32x512</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_8x2048.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">fifo_8x2048</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 399: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 403: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 405: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 427: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 504: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">7</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 558: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 284: Assignment to <arg fmt="%s" index="1">grp_xillybus_wrapper_xilly_decprint_fu_172_ap_idle</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v" Line 237: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v" Line 268: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 297: Assignment to <arg fmt="%s" index="1">grp_xillybus_wrapper_xilly_puts_1_fu_183_ap_idle</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 690: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 718: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 730: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 939: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1078: Result of <arg fmt="%d" index="1">22</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1087: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1089: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1093: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 329: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">debug_ready</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 55: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 72: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 91: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 100: Result of <arg fmt="%d" index="1">33</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">32</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 101: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" Line 87: Result of <arg fmt="%d" index="1">13</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">12</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" Line 145: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 116: Input port <arg fmt="%s" index="1">PS_SRSTB</arg> is not connected on this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_w_write_8_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_WEB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_wren</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_w_write_8_wren</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_w_write_8_open</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_r_mem_8_open</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_w_mem_8_open</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v</arg>&quot; line <arg fmt="%s" index="2">116</arg>: Output port &lt;<arg fmt="%s" index="3">user_mem_8_addr_update</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">xillybus_ins</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus.v</arg>&quot; line <arg fmt="%s" index="2">186</arg>: Output port &lt;<arg fmt="%s" index="3">xillyvga_0_vga_de</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">system_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Value &quot;<arg fmt="%s" index="1">none</arg>&quot; of property &quot;<arg fmt="%s" index="2">fsm_encoding</arg>&quot; is not applicable. List of valid values is &quot;<arg fmt="%s" index="3">auto, compact, gray, johnson, one-hot, sequential, speed1, user</arg>&quot; 
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">in_r_dout&lt;31:24&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">279</arg>: Output port &lt;<arg fmt="%s" index="3">ap_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grp_xillybus_wrapper_xilly_decprint_fu_172</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v</arg>&quot; line <arg fmt="%s" index="2">292</arg>: Output port &lt;<arg fmt="%s" index="3">ap_idle</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">grp_xillybus_wrapper_xilly_puts_1_fu_183</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str3_load_cast_reg_363&lt;7&gt;</arg>&lt;<arg fmt="%d" index="2">21</arg>:<arg fmt="%d" index="3">21</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">r_cast6_reg_378&lt;9&gt;</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">7</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">r_cast6_reg_378&lt;8&gt;</arg>&lt;<arg fmt="%d" index="2">9</arg>:<arg fmt="%d" index="3">9</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">g_cast5_reg_388&lt;8&gt;</arg>&lt;<arg fmt="%d" index="2">8</arg>:<arg fmt="%d" index="3">8</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">b_cast4_reg_393&lt;8&gt;</arg>&lt;<arg fmt="%d" index="2">8</arg>:<arg fmt="%d" index="3">8</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str4_load_cast_reg_415&lt;7&gt;</arg>&lt;<arg fmt="%d" index="2">8</arg>:<arg fmt="%d" index="3">8</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428&lt;7&gt;</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">7</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428&lt;6&gt;</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">7</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428&lt;5&gt;</arg>&lt;<arg fmt="%d" index="2">6</arg>:<arg fmt="%d" index="3">6</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428&lt;4&gt;</arg>&lt;<arg fmt="%d" index="2">5</arg>:<arg fmt="%d" index="3">5</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_p_str3_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_p_str4_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_p_str5_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_p_str6_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_p_str7_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Value &quot;<arg fmt="%s" index="1">none</arg>&quot; of property &quot;<arg fmt="%s" index="2">fsm_encoding</arg>&quot; is not applicable. List of valid values is &quot;<arg fmt="%s" index="3">auto, compact, gray, johnson, one-hot, sequential, speed1, user</arg>&quot; 
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">debug_ready&lt;7:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;31&gt;</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;30&gt;</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">31</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;29&gt;</arg>&lt;<arg fmt="%d" index="2">30</arg>:<arg fmt="%d" index="3">30</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;28&gt;</arg>&lt;<arg fmt="%d" index="2">29</arg>:<arg fmt="%d" index="3">29</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;27&gt;</arg>&lt;<arg fmt="%d" index="2">28</arg>:<arg fmt="%d" index="3">28</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;26&gt;</arg>&lt;<arg fmt="%d" index="2">27</arg>:<arg fmt="%d" index="3">27</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;25&gt;</arg>&lt;<arg fmt="%d" index="2">26</arg>:<arg fmt="%d" index="3">26</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;24&gt;</arg>&lt;<arg fmt="%d" index="2">25</arg>:<arg fmt="%d" index="3">25</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;23&gt;</arg>&lt;<arg fmt="%d" index="2">24</arg>:<arg fmt="%d" index="3">24</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;22&gt;</arg>&lt;<arg fmt="%d" index="2">23</arg>:<arg fmt="%d" index="3">23</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;21&gt;</arg>&lt;<arg fmt="%d" index="2">22</arg>:<arg fmt="%d" index="3">22</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;20&gt;</arg>&lt;<arg fmt="%d" index="2">21</arg>:<arg fmt="%d" index="3">21</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;19&gt;</arg>&lt;<arg fmt="%d" index="2">20</arg>:<arg fmt="%d" index="3">20</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;18&gt;</arg>&lt;<arg fmt="%d" index="2">19</arg>:<arg fmt="%d" index="3">19</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;17&gt;</arg>&lt;<arg fmt="%d" index="2">18</arg>:<arg fmt="%d" index="3">18</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;16&gt;</arg>&lt;<arg fmt="%d" index="2">17</arg>:<arg fmt="%d" index="3">17</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;15&gt;</arg>&lt;<arg fmt="%d" index="2">16</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;14&gt;</arg>&lt;<arg fmt="%d" index="2">15</arg>:<arg fmt="%d" index="3">15</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;13&gt;</arg>&lt;<arg fmt="%d" index="2">14</arg>:<arg fmt="%d" index="3">14</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;12&gt;</arg>&lt;<arg fmt="%d" index="2">13</arg>:<arg fmt="%d" index="3">13</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;11&gt;</arg>&lt;<arg fmt="%d" index="2">12</arg>:<arg fmt="%d" index="3">12</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;10&gt;</arg>&lt;<arg fmt="%d" index="2">11</arg>:<arg fmt="%d" index="3">11</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;9&gt;</arg>&lt;<arg fmt="%d" index="2">10</arg>:<arg fmt="%d" index="3">10</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;8&gt;</arg>&lt;<arg fmt="%d" index="2">9</arg>:<arg fmt="%d" index="3">9</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;7&gt;</arg>&lt;<arg fmt="%d" index="2">8</arg>:<arg fmt="%d" index="3">8</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;6&gt;</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">7</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;5&gt;</arg>&lt;<arg fmt="%d" index="2">6</arg>:<arg fmt="%d" index="3">6</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">first_2_cast1_reg_272&lt;4&gt;</arg>&lt;<arg fmt="%d" index="2">5</arg>:<arg fmt="%d" index="3">5</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">powers10_load_cast_reg_297&lt;31&gt;</arg>&lt;<arg fmt="%d" index="2">4</arg>:<arg fmt="%d" index="3">4</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">powers10_load_cast_reg_297&lt;30&gt;</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">31</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="new" >Signal &apos;<arg fmt="%s" index="1">ram</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint_powers10_rom</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="new" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">ram</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="new" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">ram</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >Value &quot;<arg fmt="%s" index="1">none</arg>&quot; of property &quot;<arg fmt="%s" index="2">fsm_encoding</arg>&quot; is not applicable. List of valid values is &quot;<arg fmt="%s" index="3">auto, compact, gray, johnson, one-hot, sequential, speed1, user</arg>&quot; 
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">debug_ready&lt;7:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">quiesce</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v</arg>&quot; line <arg fmt="%s" index="2">126</arg>: Output port &lt;<arg fmt="%s" index="3">empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">playback_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v</arg>&quot; line <arg fmt="%s" index="2">139</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">record_fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">IOB</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">audio_lrclk_reg</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v</arg>&quot; line <arg fmt="%s" index="2">224</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">powers10_load_cast_reg_297_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">grp_xillybus_wrapper_xilly_decprint_fu_172</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;powers10_load_cast_reg_297_28&gt; &lt;powers10_load_cast_reg_297_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str7_rom_U</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str7_rom_U</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">HLS_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_p_str7_rom_U</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HLS_wrapper</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HLS_wrapper</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">y_reg_433_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">HLS_wrapper</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">y_reg_433</arg>&lt;<arg fmt="%d" index="2">9</arg>:<arg fmt="%d" index="3">9</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">xillybus_wrapper</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_addr0[1]_read_port_1_OUT</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3216" delta="new" >HDL ADVISOR - LUT implementation is currently selected for the RAM &lt;<arg fmt="%s" index="1">Mram_ram</arg>&gt;. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_demoarray</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_litearray0</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_litearray1</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_litearray2</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_litearray3</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">tmp_4_reg_292_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_p_str7_rom</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">q0_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_p_str7_rom</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_reg_368_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_cast4_reg_393_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">g_cast5_reg_388_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;g_reg_383_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_reg_368_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_cast4_reg_393_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">b_cast4_reg_393_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;b_reg_368_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">r_cast6_reg_378_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;r_reg_373_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">powers10_load_cast_reg_297_27</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;powers10_load_cast_reg_297_29&gt; &lt;powers10_load_cast_reg_297_28&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str7_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;p_str7_load_cast_reg_428_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;p_str7_load_cast_reg_428_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">p_str7_load_cast_reg_428_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">first_reg_87_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_xilly_decprint</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">q0_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_p_str5_rom</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">q0_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillybus_wrapper_p_str6_rom</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_i_reg_321_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_i_reg_121_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_0_rec_reg_24_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">p_rec_reg_67_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_puts_1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint_powers10_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_25&gt; &lt;q0_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint_powers10_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_xilly_decprint_powers10_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_22&gt; &lt;q0_26&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str4_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_2&gt; &lt;q0_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str4_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str4_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str5_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str5_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str5_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str6_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_2&gt; &lt;q0_3&gt; &lt;q0_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">q0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper_p_str6_rom</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;q0_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">p_str4_load_cast_reg_415_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;p_str4_load_cast_reg_415_2&gt; &lt;p_str4_load_cast_reg_415_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">p_str4_load_cast_reg_415_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;p_str4_load_cast_reg_415_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">p_str4_load_cast_reg_415_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_wrapper</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;p_str4_load_cast_reg_415_4&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/Mram_ram6</arg>&gt;, &lt;<arg fmt="%s" index="2">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/Mram_ram5</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_26</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_27</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_28</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_29</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_30</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_31</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">smbus/div_counter_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">xillydemo</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/q0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/q0_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_load_reg_326_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_load_reg_326_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_25&gt; &lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_27&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_22&gt; &lt;HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_26&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillydemo</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;55&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;54&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;53&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;52&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;51&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;50&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;49&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;48&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;47&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;46&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;45&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;44&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;43&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;42&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;41&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;40&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;39&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;38&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;37&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;36&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;35&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;34&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;33&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;32&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;31&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;30&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;29&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;28&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;27&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;26&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;25&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;24&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;23&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;22&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;21&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;20&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;19&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;18&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;17&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;16&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;15&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;14&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;13&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;12&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;11&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;10&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;9&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;8&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">PS_GPIO&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">system</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rd_arbiter_ins/rd_arb_roundrobin_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_ins/xillybus_core_ins</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rd_arbiter_ins/rd_arb_roundrobin_1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rd_arbiter_ins/rd_arb_roundrobin_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xillybus_ins/xillybus_core_ins</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;rd_arbiter_ins/rd_arb_roundrobin_1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,148 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win32) Build 1071353 Tue Nov 18 18:06:20 MST 2014
+| Date         : Wed May 18 12:18:16 2016
+| Host         : MarcusNotebook running 32-bit major release  (build 9200)
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+           Max violations: <unlimited>
+         Violations found: 17
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP HLS_wrapper/mul_fu_320_p2 input A B is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+Output pipelining  
+DSP HLS_wrapper/mul_fu_320_p2 output P is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_blue[0]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_blue[1]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_blue[2]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_blue[3]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_green[0]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_green[1]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_green[2]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_green[3]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_red[0]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_red[1]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_red[2]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga4_red[3]' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga_hsync' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same output delay of 5.500 ns has been defined on port 'vga_vsync' for both max and min. Make sure this reflects the design intent.
+set_output_delay 5.500 [get_ports vga*]
+C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vivado-essentials/xillydemo.xdc (Line: 12)
+Related violations: <none>
+
+

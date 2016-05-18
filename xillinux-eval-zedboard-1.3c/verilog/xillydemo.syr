@@ -1,0 +1,2029 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> Reading design: xillydemo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "xillydemo.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "xillydemo"
+Output Format                      : NGC
+Target Device                      : xc7z020-1-clg484
+
+---- Source Options
+Top Module Name                    : xillydemo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/system/implementation" "C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/cores" "C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/runonce"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_powers10.v" into library work
+Parsing module <xillybus_wrapper_xilly_decprint_powers10_rom>.
+Parsing module <xillybus_wrapper_xilly_decprint_powers10>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_out.v" into library work
+Parsing module <xillybus_wrapper_xilly_decprint_out_ram>.
+Parsing module <xillybus_wrapper_xilly_decprint_out>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus_core.v" into library work
+Parsing module <xillybus_core>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\system.v" into library work
+Parsing module <system>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_8x2048.v" into library work
+Parsing module <fifo_8x2048>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_32x512.v" into library work
+Parsing module <fifo_32x512>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v" into library work
+Parsing module <xillybus_wrapper_xilly_puts_1>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" into library work
+Parsing module <xillybus_wrapper_xilly_decprint>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str7.v" into library work
+Parsing module <xillybus_wrapper_p_str7_rom>.
+Parsing module <xillybus_wrapper_p_str7>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str6.v" into library work
+Parsing module <xillybus_wrapper_p_str6_rom>.
+Parsing module <xillybus_wrapper_p_str6>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str5.v" into library work
+Parsing module <xillybus_wrapper_p_str5_rom>.
+Parsing module <xillybus_wrapper_p_str5>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str4.v" into library work
+Parsing module <xillybus_wrapper_p_str4_rom>.
+Parsing module <xillybus_wrapper_p_str4>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str3.v" into library work
+Parsing module <xillybus_wrapper_p_str3_rom>.
+Parsing module <xillybus_wrapper_p_str3>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus.v" into library work
+Parsing module <xillybus>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" into library work
+Parsing module <smbus>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" into library work
+Parsing module <i2s_audio>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" into library work
+Parsing module <xillybus_wrapper>.
+Analyzing Verilog file "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" into library work
+Parsing module <xillydemo>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 116: Port MIO is not connected to this instance
+
+Elaborating module <xillydemo>.
+
+Elaborating module <xillybus>.
+
+Elaborating module <FDCE>.
+
+Elaborating module <system>.
+WARNING:HDLCompiler:1499 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\system.v" Line 1: Empty module <system> remains a black box.
+
+Elaborating module <xillybus_core>.
+WARNING:HDLCompiler:1499 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus_core.v" Line 1: Empty module <xillybus_core> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 124: Assignment to user_r_mem_8_open ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 130: Assignment to user_w_mem_8_open ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 134: Assignment to user_mem_8_addr_update ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 165: Assignment to user_w_write_8_wren ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 167: Assignment to user_w_write_8_data ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 168: Assignment to user_w_write_8_open ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 200: Assignment to user_wren ignored, since the identifier is never used
+
+Elaborating module <fifo_32x512>.
+WARNING:HDLCompiler:1499 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_32x512.v" Line 1: Empty module <fifo_32x512> remains a black box.
+
+Elaborating module <fifo_8x2048>.
+WARNING:HDLCompiler:1499 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\fifo_8x2048.v" Line 1: Empty module <fifo_8x2048> remains a black box.
+
+Elaborating module <xillybus_wrapper>.
+
+Elaborating module <xillybus_wrapper_p_str3(DataWidth=7,AddressRange=16,AddressWidth=4)>.
+
+Elaborating module <xillybus_wrapper_p_str3_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_p_str3_rom.dat\".
+
+Elaborating module <xillybus_wrapper_p_str4(DataWidth=7,AddressRange=3,AddressWidth=2)>.
+
+Elaborating module <xillybus_wrapper_p_str4_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_p_str4_rom.dat\".
+
+Elaborating module <xillybus_wrapper_p_str5(DataWidth=8,AddressRange=4,AddressWidth=2)>.
+
+Elaborating module <xillybus_wrapper_p_str5_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_p_str5_rom.dat\".
+
+Elaborating module <xillybus_wrapper_p_str6(DataWidth=8,AddressRange=4,AddressWidth=2)>.
+
+Elaborating module <xillybus_wrapper_p_str6_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_p_str6_rom.dat\".
+
+Elaborating module <xillybus_wrapper_p_str7(DataWidth=4,AddressRange=2,AddressWidth=1)>.
+
+Elaborating module <xillybus_wrapper_p_str7_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_p_str7_rom.dat\".
+
+Elaborating module <xillybus_wrapper_xilly_decprint>.
+
+Elaborating module <xillybus_wrapper_xilly_decprint_powers10(DataWidth=28,AddressRange=10,AddressWidth=4)>.
+
+Elaborating module <xillybus_wrapper_xilly_decprint_powers10_rom>.
+Reading initialization file \":\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\/./xillybus_wrapper_xilly_decprint_powers10_rom.dat\".
+
+Elaborating module <xillybus_wrapper_xilly_decprint_out(DataWidth=8,AddressRange=11,AddressWidth=4)>.
+
+Elaborating module <xillybus_wrapper_xilly_decprint_out_ram>.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 399: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 403: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 405: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 427: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 504: Result of 32-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v" Line 558: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 284: Assignment to grp_xillybus_wrapper_xilly_decprint_fu_172_ap_idle ignored, since the identifier is never used
+
+Elaborating module <xillybus_wrapper_xilly_puts_1>.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v" Line 237: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v" Line 268: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 297: Assignment to grp_xillybus_wrapper_xilly_puts_1_fu_183_ap_idle ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 690: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 718: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 730: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 939: Result of 32-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1078: Result of 22-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1087: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1089: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" Line 1093: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 329: Size mismatch in connection of port <debug_ready>. Formal port size is 8-bit while actual signal size is 1-bit.
+
+Elaborating module <i2s_audio>.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 55: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 72: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 91: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 100: Result of 33-bit expression is truncated to fit in 32-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" Line 101: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <smbus>.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" Line 87: Result of 13-bit expression is truncated to fit in 12-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" Line 145: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:552 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" Line 116: Input port PS_SRSTB is not connected on this instance
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <xillydemo>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v".
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_w_write_8_data> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <DDR_WEB> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_wren> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_w_write_8_wren> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_w_write_8_open> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_r_mem_8_open> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_w_mem_8_open> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillydemo.v" line 116: Output port <user_mem_8_addr_update> of the instance <xillybus_ins> is unconnected or connected to loadless signal.
+    Found 32x8-bit single-port RAM <Mram_demoarray> for signal <demoarray>.
+    Found 32x8-bit single-port RAM <Mram_litearray0> for signal <litearray0>.
+    Found 32x8-bit single-port RAM <Mram_litearray1> for signal <litearray1>.
+    Found 32x8-bit single-port RAM <Mram_litearray2> for signal <litearray2>.
+    Found 32x8-bit single-port RAM <Mram_litearray3> for signal <litearray3>.
+    Found 8-bit register for signal <user_r_mem_8_data>.
+    Found 1-bit register for signal <in_r_empty_n>.
+    Found 32-bit register for signal <user_rd_data>.
+    Summary:
+	inferred   5 RAM(s).
+	inferred  41 D-type flip-flop(s).
+Unit <xillydemo> synthesized.
+
+Synthesizing Unit <xillybus>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus.v".
+    Set property "IOB = TRUE" for instance <vga_iob_ff<0>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<1>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<2>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<3>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<4>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<5>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<6>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<7>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<8>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<9>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<10>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<11>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<12>>.
+    Set property "IOB = TRUE" for instance <vga_iob_ff<13>>.
+    Set property "BOX_TYPE = user_black_box" for instance <system_i>.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\xillybus.v" line 186: Output port <xillyvga_0_vga_de> of the instance <system_i> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <xillybus> synthesized.
+
+Synthesizing Unit <xillybus_wrapper>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v".
+        ap_const_logic_1 = 1'b1
+        ap_const_logic_0 = 1'b0
+        ap_ST_st1_fsm_0 = 20'b00000000000000000001
+        ap_ST_st2_fsm_1 = 20'b00000000000000000010
+        ap_ST_st3_fsm_2 = 20'b00000000000000000100
+        ap_ST_st4_fsm_3 = 20'b00000000000000001000
+        ap_ST_st5_fsm_4 = 20'b00000000000000010000
+        ap_ST_st6_fsm_5 = 20'b00000000000000100000
+        ap_ST_st7_fsm_6 = 20'b00000000000001000000
+        ap_ST_st8_fsm_7 = 20'b00000000000010000000
+        ap_ST_st9_fsm_8 = 20'b00000000000100000000
+        ap_ST_st10_fsm_9 = 20'b00000000001000000000
+        ap_ST_st11_fsm_10 = 20'b00000000010000000000
+        ap_ST_st12_fsm_11 = 20'b00000000100000000000
+        ap_ST_st13_fsm_12 = 20'b00000001000000000000
+        ap_ST_st14_fsm_13 = 20'b00000010000000000000
+        ap_ST_st15_fsm_14 = 20'b00000100000000000000
+        ap_ST_st16_fsm_15 = 20'b00001000000000000000
+        ap_ST_st17_fsm_16 = 20'b00010000000000000000
+        ap_ST_st18_fsm_17 = 20'b00100000000000000000
+        ap_ST_st19_fsm_18 = 20'b01000000000000000000
+        ap_ST_st20_fsm_19 = 20'b10000000000000000000
+        ap_const_lv32_1 = 32'b00000000000000000000000000000001
+        ap_const_lv1_1 = 1'b1
+        ap_const_lv32_2 = 32'b00000000000000000000000000000010
+        ap_const_lv1_0 = 1'b0
+        ap_const_lv32_4 = 32'b00000000000000000000000000000100
+        ap_const_lv32_5 = 32'b00000000000000000000000000000101
+        ap_const_lv32_10 = 32'b00000000000000000000000000010000
+        ap_const_lv32_11 = 32'b00000000000000000000000000010001
+        ap_const_lv4_0 = 4'b0000
+        ap_const_lv32_0 = 32'b00000000000000000000000000000000
+        ap_const_lv32_3 = 32'b00000000000000000000000000000011
+        ap_const_lv2_0 = 2'b00
+        ap_const_lv32_6 = 32'b00000000000000000000000000000110
+        ap_const_lv32_F = 32'b00000000000000000000000000001111
+        ap_const_lv32_12 = 32'b00000000000000000000000000010010
+        ap_const_lv32_A = 32'b00000000000000000000000000001010
+        ap_const_lv32_E = 32'b00000000000000000000000000001110
+        ap_const_lv32_7 = 32'b00000000000000000000000000000111
+        ap_const_lv32_B = 32'b00000000000000000000000000001011
+        ap_const_lv32_8 = 32'b00000000000000000000000000001000
+        ap_const_lv32_C = 32'b00000000000000000000000000001100
+        ap_const_lv32_9 = 32'b00000000000000000000000000001001
+        ap_const_lv32_D = 32'b00000000000000000000000000001101
+        ap_const_lv32_13 = 32'b00000000000000000000000000010011
+        ap_const_lv4_F = 4'b1111
+        ap_const_lv4_1 = 4'b0001
+        ap_const_lv32_17 = 32'b00000000000000000000000000010111
+        ap_const_lv2_2 = 2'b10
+        ap_const_lv2_1 = 2'b01
+        ap_const_lv22_556 = 22'b0000000000010101010110
+        ap_const_lv32_15 = 32'b00000000000000000000000000010101
+        ap_true = 1'b1
+WARNING:Xst - Value "none" of property "fsm_encoding" is not applicable. List of valid values is "auto, compact, gray, johnson, one-hot, sequential, speed1, user" 
+WARNING:Xst:647 - Input <in_r_dout<31:24>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" line 279: Output port <ap_idle> of the instance <grp_xillybus_wrapper_xilly_decprint_fu_172> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper.v" line 292: Output port <ap_idle> of the instance <grp_xillybus_wrapper_xilly_puts_1_fu_183> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <grp_xillybus_wrapper_xilly_decprint_fu_172_ap_start_ap_start_reg>.
+    Found 1-bit register for signal <grp_xillybus_wrapper_xilly_puts_1_fu_183_ap_start_ap_start_reg>.
+    Found 2-bit register for signal <p_0_rec_i1_cast_fu_264_p1<1:0>>.
+    Found 1-bit register for signal <p_0_rec_i8_cast_fu_294_p1<0>>.
+    Found 4-bit register for signal <p_0_rec_i_cast_fu_198_p1<3:0>>.
+    Found 1-bit register for signal <b_cast4_reg_393<7>>.
+    Found 1-bit register for signal <b_cast4_reg_393<6>>.
+    Found 1-bit register for signal <b_cast4_reg_393<5>>.
+    Found 1-bit register for signal <b_cast4_reg_393<4>>.
+    Found 1-bit register for signal <b_cast4_reg_393<3>>.
+    Found 1-bit register for signal <b_cast4_reg_393<2>>.
+    Found 1-bit register for signal <b_cast4_reg_393<1>>.
+    Found 1-bit register for signal <b_cast4_reg_393<0>>.
+    Found 8-bit register for signal <b_reg_368>.
+    Found 1-bit register for signal <g_cast5_reg_388<7>>.
+    Found 1-bit register for signal <g_cast5_reg_388<6>>.
+    Found 1-bit register for signal <g_cast5_reg_388<5>>.
+    Found 1-bit register for signal <g_cast5_reg_388<4>>.
+    Found 1-bit register for signal <g_cast5_reg_388<3>>.
+    Found 1-bit register for signal <g_cast5_reg_388<2>>.
+    Found 1-bit register for signal <g_cast5_reg_388<1>>.
+    Found 1-bit register for signal <g_cast5_reg_388<0>>.
+    Found 8-bit register for signal <g_reg_383>.
+    Found 1-bit register for signal <r_cast6_reg_378<7>>.
+    Found 1-bit register for signal <r_cast6_reg_378<6>>.
+    Found 1-bit register for signal <r_cast6_reg_378<5>>.
+    Found 1-bit register for signal <r_cast6_reg_378<4>>.
+    Found 1-bit register for signal <r_cast6_reg_378<3>>.
+    Found 1-bit register for signal <r_cast6_reg_378<2>>.
+    Found 1-bit register for signal <r_cast6_reg_378<1>>.
+    Found 1-bit register for signal <r_cast6_reg_378<0>>.
+    Found 8-bit register for signal <r_reg_373>.
+    Found 2-bit register for signal <p_rec_i7_reg_410>.
+    Found 1-bit register for signal <tmp_i2_reg_406>.
+    Found 4-bit register for signal <p_rec_i_reg_358>.
+    Found 1-bit register for signal <tmp_i_reg_354>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<6>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<5>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<4>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<3>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<2>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<1>>.
+    Found 1-bit register for signal <p_str3_load_cast_reg_363<0>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<6>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<5>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<4>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<3>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<2>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<1>>.
+    Found 1-bit register for signal <p_str4_load_cast_reg_415<0>>.
+    Found 1-bit register for signal <p_str7_load_cast_reg_428<3>>.
+    Found 1-bit register for signal <p_str7_load_cast_reg_428<2>>.
+    Found 1-bit register for signal <p_str7_load_cast_reg_428<1>>.
+    Found 1-bit register for signal <p_str7_load_cast_reg_428<0>>.
+    Found 10-bit register for signal <y_reg_433>.
+    Found 20-bit register for signal <ap_CS_fsm>.
+    Found finite state machine <FSM_0> for signal <ap_CS_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 20                                             |
+    | Transitions        | 33                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 40                                             |
+    | Clock              | ap_clk (rising_edge)                           |
+    | Reset              | ap_rst (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00000000000000000001                           |
+    | Power Up State     | 00000000000000000001                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 2-bit adder for signal <p_rec_i7_fu_275_p2> created at line 1085.
+    Found 4-bit adder for signal <p_rec_i_fu_209_p2> created at line 1086.
+    Found 9-bit adder for signal <tmp1_fu_303_p2> created at line 1098.
+    Found 10-bit adder for signal <mul_fu_320_p00<9:0>> created at line 1101.
+    Found 10x11-bit multiplier for signal <n0381> created at line 1080.
+    WARNING:Xst:2404 -  FFs/Latches <p_str3_load_cast_reg_363<7><21:21>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <r_cast6_reg_378<9><7:7>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <r_cast6_reg_378<8><9:9>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <g_cast5_reg_388<8><8:8>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <b_cast4_reg_393<8><8:8>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <p_str4_load_cast_reg_415<7><8:8>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <p_str7_load_cast_reg_428<7><7:7>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <p_str7_load_cast_reg_428<6><7:7>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <p_str7_load_cast_reg_428<5><6:6>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    WARNING:Xst:2404 -  FFs/Latches <p_str7_load_cast_reg_428<4><5:5>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  93 D-type flip-flop(s).
+	inferred  12 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <xillybus_wrapper> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str3>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str3.v".
+        DataWidth = 7
+        AddressRange = 16
+        AddressWidth = 4
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_p_str3> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str3_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str3.v".
+        DWIDTH = 7
+        AWIDTH = 4
+        MEM_SIZE = 16
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_p_str3_rom', is tied to its initial value.
+    Found 16x7-bit single-port Read Only RAM <Mram_ram> for signal <ram>.
+    Found 7-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   7 D-type flip-flop(s).
+Unit <xillybus_wrapper_p_str3_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str4>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str4.v".
+        DataWidth = 7
+        AddressRange = 3
+        AddressWidth = 2
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_p_str4> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str4_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str4.v".
+        DWIDTH = 7
+        AWIDTH = 2
+        MEM_SIZE = 3
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_p_str4_rom', is tied to its initial value.
+    Found 7-bit register for signal <q0>.
+    Found 4x7-bit Read Only RAM for signal <addr0[1]_read_port_1_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred   7 D-type flip-flop(s).
+Unit <xillybus_wrapper_p_str4_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str5>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str5.v".
+        DataWidth = 8
+        AddressRange = 4
+        AddressWidth = 2
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_p_str5> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str5_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str5.v".
+        DWIDTH = 8
+        AWIDTH = 2
+        MEM_SIZE = 4
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_p_str5_rom', is tied to its initial value.
+    Found 4x8-bit single-port Read Only RAM <Mram_ram> for signal <ram>.
+    Found 8-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <xillybus_wrapper_p_str5_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str6>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str6.v".
+        DataWidth = 8
+        AddressRange = 4
+        AddressWidth = 2
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_p_str6> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str6_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str6.v".
+        DWIDTH = 8
+        AWIDTH = 2
+        MEM_SIZE = 4
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_p_str6_rom', is tied to its initial value.
+    Found 4x8-bit single-port Read Only RAM <Mram_ram> for signal <ram>.
+    Found 8-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <xillybus_wrapper_p_str6_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str7>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str7.v".
+        DataWidth = 4
+        AddressRange = 2
+        AddressWidth = 1
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_p_str7> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_p_str7_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_p_str7.v".
+        DWIDTH = 4
+        AWIDTH = 1
+        MEM_SIZE = 2
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_p_str7_rom', is tied to its initial value.
+    Found 4-bit register for signal <q0>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <xillybus_wrapper_p_str7_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_decprint>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint.v".
+        ap_const_logic_1 = 1'b1
+        ap_const_logic_0 = 1'b0
+        ap_ST_st1_fsm_0 = 7'b0000001
+        ap_ST_st2_fsm_1 = 7'b0000010
+        ap_ST_st3_fsm_2 = 7'b0000100
+        ap_ST_st4_fsm_3 = 7'b0001000
+        ap_ST_st5_fsm_4 = 7'b0010000
+        ap_ST_st6_fsm_5 = 7'b0100000
+        ap_ST_st7_fsm_6 = 7'b1000000
+        ap_const_lv32_0 = 32'b00000000000000000000000000000000
+        ap_const_lv1_1 = 1'b1
+        ap_const_lv32_1 = 32'b00000000000000000000000000000001
+        ap_const_lv1_0 = 1'b0
+        ap_const_lv32_2 = 32'b00000000000000000000000000000010
+        ap_const_lv32_3 = 32'b00000000000000000000000000000011
+        ap_const_lv32_4 = 32'b00000000000000000000000000000100
+        ap_const_lv32_5 = 32'b00000000000000000000000000000101
+        ap_const_lv32_9 = 32'b00000000000000000000000000001001
+        ap_const_lv4_0 = 4'b0000
+        ap_const_lv8_0 = 8'b00000000
+        ap_const_lv32_6 = 32'b00000000000000000000000000000110
+        ap_const_lv32_A = 32'b00000000000000000000000000001010
+        ap_const_lv4_A = 4'b1010
+        ap_const_lv4_1 = 4'b0001
+        ap_const_lv8_1 = 8'b00000001
+        ap_const_lv8_30 = 8'b00110000
+        ap_true = 1'b1
+WARNING:Xst - Value "none" of property "fsm_encoding" is not applicable. List of valid values is "auto, compact, gray, johnson, one-hot, sequential, speed1, user" 
+WARNING:Xst:647 - Input <debug_ready<7:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4-bit register for signal <first_2_cast1_fu_142_p1<3:0>>.
+    Found 32-bit register for signal <first_reg_87>.
+    Found 32-bit register for signal <p_0_rec_i_reg_121>.
+    Found 32-bit register for signal <v_fu_34>.
+    Found 8-bit register for signal <x_reg_110>.
+    Found 1-bit register for signal <first_2_cast1_reg_272<3>>.
+    Found 1-bit register for signal <first_2_cast1_reg_272<2>>.
+    Found 1-bit register for signal <first_2_cast1_reg_272<1>>.
+    Found 1-bit register for signal <first_2_cast1_reg_272<0>>.
+    Found 4-bit register for signal <i_reg_282>.
+    Found 8-bit register for signal <out_load_reg_326>.
+    Found 32-bit register for signal <p_rec_i_reg_321>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<29>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<28>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<27>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<26>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<25>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<24>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<23>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<22>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<21>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<20>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<19>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<18>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<17>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<16>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<15>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<14>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<13>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<12>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<11>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<10>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<9>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<8>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<7>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<6>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<5>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<4>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<3>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<2>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<1>>.
+    Found 1-bit register for signal <powers10_load_cast_reg_297<0>>.
+    Found 5-bit register for signal <tmp_4_reg_292>.
+    Found 7-bit register for signal <ap_CS_fsm>.
+    Found finite state machine <FSM_1> for signal <ap_CS_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 19                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 14                                             |
+    | Clock              | ap_clk (rising_edge)                           |
+    | Reset              | ap_rst (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000001                                        |
+    | Power Up State     | 0000001                                        |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit subtractor for signal <v_2_fu_185_p2> created at line 572.
+    Found 4-bit adder for signal <i_fu_153_p2> created at line 555.
+    Found 32-bit adder for signal <p_rec_i_fu_240_p2> created at line 557.
+    Found 5-bit adder for signal <sum_i_fu_230_p2> created at line 562.
+    Found 8-bit adder for signal <x_1_fu_179_p2> created at line 573.
+    Found 32-bit comparator greater for signal <tmp_8_fu_208_p2> created at line 567
+    Found 32-bit comparator greater for signal <tmp_fu_174_p2> created at line 569
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<31><0:0>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<30><31:31>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<29><30:30>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<28><29:29>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<27><28:28>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<26><27:27>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<25><26:26>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<24><25:25>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<23><24:24>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<22><23:23>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<21><22:22>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<20><21:21>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<19><20:20>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<18><19:19>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<17><18:18>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<16><17:17>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<15><16:16>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<14><15:15>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<13><14:14>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<12><13:13>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<11><12:12>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<10><11:11>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<9><10:10>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<8><9:9>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<7><8:8>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<6><7:7>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<5><6:6>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <first_2_cast1_reg_272<4><5:5>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <powers10_load_cast_reg_297<31><4:4>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    WARNING:Xst:2404 -  FFs/Latches <powers10_load_cast_reg_297<30><31:31>> (without init value) have a constant value of 0 in block <xillybus_wrapper_xilly_decprint>.
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred 191 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <xillybus_wrapper_xilly_decprint> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_decprint_powers10>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_powers10.v".
+        DataWidth = 28
+        AddressRange = 10
+        AddressWidth = 4
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_xilly_decprint_powers10> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_decprint_powers10_rom>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_powers10.v".
+        DWIDTH = 28
+        AWIDTH = 4
+        MEM_SIZE = 10
+    Set property "rom_style = distributed".
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:2999 - Signal 'ram', unconnected in block 'xillybus_wrapper_xilly_decprint_powers10_rom', is tied to its initial value.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <ram>, simulation mismatch.
+    Found 10x28-bit single-port Read Only RAM <Mram_ram> for signal <ram>.
+    Found 28-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  28 D-type flip-flop(s).
+Unit <xillybus_wrapper_xilly_decprint_powers10_rom> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_decprint_out>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_out.v".
+        DataWidth = 8
+        AddressRange = 11
+        AddressWidth = 4
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <xillybus_wrapper_xilly_decprint_out> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_decprint_out_ram>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_decprint_out.v".
+        DWIDTH = 8
+        AWIDTH = 4
+        MEM_SIZE = 11
+    Set property "ram_style = distributed" for signal <ram>.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <ram>, simulation mismatch.
+    Found 11x8-bit single-port RAM <Mram_ram> for signal <ram>.
+    Found 8-bit register for signal <q0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <xillybus_wrapper_xilly_decprint_out_ram> synthesized.
+
+Synthesizing Unit <xillybus_wrapper_xilly_puts_1>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\hls-starter-1.0\hls-starter-1.0\coprocess\example\syn\verilog\xillybus_wrapper_xilly_puts_1.v".
+        ap_const_logic_1 = 1'b1
+        ap_const_logic_0 = 1'b0
+        ap_ST_st1_fsm_0 = 4'b0001
+        ap_ST_st2_fsm_1 = 4'b0010
+        ap_ST_st3_fsm_2 = 4'b0100
+        ap_ST_st4_fsm_3 = 4'b1000
+        ap_const_lv32_0 = 32'b00000000000000000000000000000000
+        ap_const_lv1_1 = 1'b1
+        ap_const_lv32_1 = 32'b00000000000000000000000000000001
+        ap_const_lv32_2 = 32'b00000000000000000000000000000010
+        ap_const_lv32_3 = 32'b00000000000000000000000000000011
+        ap_const_lv1_0 = 1'b0
+        ap_const_lv8_0 = 8'b00000000
+        ap_true = 1'b1
+WARNING:Xst - Value "none" of property "fsm_encoding" is not applicable. List of valid values is "auto, compact, gray, johnson, one-hot, sequential, speed1, user" 
+WARNING:Xst:647 - Input <debug_ready<7:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <p_0_rec_reg_24>.
+    Found 32-bit register for signal <p_rec_reg_67>.
+    Found 8-bit register for signal <str_load_reg_72>.
+    Found 4-bit register for signal <ap_CS_fsm>.
+    Found finite state machine <FSM_2> for signal <ap_CS_fsm>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 8                                              |
+    | Clock              | ap_clk (rising_edge)                           |
+    | Reset              | ap_rst (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0001                                           |
+    | Power Up State     | 0001                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <p_rec_fu_37_p2> created at line 267.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  72 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <xillybus_wrapper_xilly_puts_1> synthesized.
+
+Synthesizing Unit <i2s_audio>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v".
+    Set property "IOB = TRUE" for signal <audio_mclk>.
+    Set property "IOB = TRUE" for signal <audio_dac>.
+    Set property "IOB = TRUE" for signal <audio_adc_reg>.
+    Set property "IOB = TRUE" for signal <audio_bclk_reg>.
+    Set property "IOB = TRUE" for signal <audio_lrclk_reg>.
+WARNING:Xst:647 - Input <quiesce> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" line 126: Output port <empty> of the instance <playback_fifo> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\i2s_audio.v" line 139: Output port <full> of the instance <record_fifo> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <audio_mclk>.
+    Found 1-bit register for signal <audio_adc_reg>.
+    Found 1-bit register for signal <audio_bclk_reg>.
+    Found 1-bit register for signal <audio_lrclk_reg>.
+    Found 2-bit register for signal <bclk_d>.
+    Found 1-bit register for signal <audio_lrclk_reg_d>.
+    Found 1-bit register for signal <fifo_rd_en>.
+    Found 16-bit register for signal <play_shreg>.
+    Found 1-bit register for signal <audio_dac>.
+    Found 1-bit register for signal <fifo_wr_en>.
+    Found 32-bit register for signal <record_shreg>.
+    Found 5-bit register for signal <record_count>.
+    Found 1-bit register for signal <write_when_done>.
+    Found 2-bit register for signal <clk_div>.
+    Found 2-bit adder for signal <clk_div[1]_GND_26_o_add_1_OUT> created at line 55.
+    Found 5-bit subtractor for signal <GND_26_o_GND_26_o_sub_11_OUT<4:0>> created at line 101.
+INFO:Xst:2774 - HDL ADVISOR - IOB property attached to signal audio_lrclk_reg may hinder XST clustering optimizations.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  66 D-type flip-flop(s).
+	inferred   5 Multiplexer(s).
+Unit <i2s_audio> synthesized.
+
+Synthesizing Unit <smbus>.
+    Related source file is "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v".
+        clk_freq = 150
+        st_idle = 0
+        st_start = 1
+        st_fetch = 2
+        st_bit0 = 3
+        st_bit1 = 4
+        st_bit2 = 5
+        st_ack0 = 6
+        st_ack1 = 7
+        st_ack2 = 8
+        st_stop0 = 9
+        st_stop1 = 10
+        st_stop2 = 11
+INFO:Xst:3210 - "C:\Users\marcus255\Downloads\xillydemo_ise\xillinux-eval-zedboard-1.3c\verilog\src\smbus.v" line 224: Output port <full> of the instance <fifo> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <sdata_sample>.
+    Found 1-bit register for signal <fifo_wr_en>.
+    Found 1-bit register for signal <open_d>.
+    Found 1-bit register for signal <stop_pending>.
+    Found 8-bit register for signal <write_byte>.
+    Found 1-bit register for signal <write_byte_valid>.
+    Found 12-bit register for signal <div_counter>.
+    Found 1-bit register for signal <pre_en>.
+    Found 1-bit register for signal <sclk_logic>.
+    Found 4-bit register for signal <state>.
+    Found 1-bit register for signal <sdata_logic>.
+    Found 1-bit register for signal <dir_write>.
+    Found 1-bit register for signal <first>.
+    Found 1-bit register for signal <save_direction>.
+    Found 3-bit register for signal <idx>.
+    Found 8-bit register for signal <read_byte>.
+    Found 1-bit register for signal <SMBus_en>.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 30                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 8                                              |
+    | Clock              | bus_clk (rising_edge)                          |
+    | Reset              | quiesce (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <div_counter[11]_GND_27_o_add_5_OUT> created at line 87.
+    Found 3-bit subtractor for signal <GND_27_o_GND_27_o_sub_11_OUT<2:0>> created at line 145.
+    Found 1-bit 8-to-1 multiplexer for signal <idx[2]_write_byte[7]_Mux_8_o> created at line 126.
+    Found 1-bit tristate buffer for signal <smb_sclk> created at line 55
+    Found 1-bit tristate buffer for signal <smb_sdata> created at line 56
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  43 D-type flip-flop(s).
+	inferred  21 Multiplexer(s).
+	inferred   2 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <smbus> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 10x28-bit single-port Read Only RAM                   : 1
+ 11x8-bit single-port RAM                              : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+ 32x8-bit single-port RAM                              : 5
+ 4x7-bit single-port Read Only RAM                     : 1
+ 4x8-bit single-port Read Only RAM                     : 2
+# Multipliers                                          : 1
+ 11x10-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 14
+ 10-bit adder                                          : 1
+ 12-bit adder                                          : 1
+ 2-bit adder                                           : 2
+ 3-bit subtractor                                      : 1
+ 32-bit adder                                          : 2
+ 32-bit subtractor                                     : 1
+ 4-bit adder                                           : 2
+ 5-bit adder                                           : 1
+ 5-bit subtractor                                      : 1
+ 8-bit adder                                           : 1
+ 9-bit adder                                           : 1
+# Registers                                            : 138
+ 1-bit register                                        : 99
+ 10-bit register                                       : 1
+ 12-bit register                                       : 1
+ 16-bit register                                       : 1
+ 2-bit register                                        : 4
+ 28-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 8
+ 4-bit register                                        : 6
+ 5-bit register                                        : 2
+ 7-bit register                                        : 2
+ 8-bit register                                        : 12
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 44
+ 1-bit 2-to-1 multiplexer                              : 25
+ 1-bit 8-to-1 multiplexer                              : 1
+ 16-bit 2-to-1 multiplexer                             : 2
+ 3-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 2
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 9
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/cores/xillybus_core.ngc>.
+Loading core <xillybus_core> for timing and area information for instance <xillybus_core_ins>.
+INFO:Xst:2261 - The FF/Latch <powers10_load_cast_reg_297_29> in Unit <grp_xillybus_wrapper_xilly_decprint_fu_172> is equivalent to the following 2 FFs/Latches, which will be removed : <powers10_load_cast_reg_297_28> <powers10_load_cast_reg_297_27> 
+INFO:Xst:2261 - The FF/Latch <q0_0> in Unit <xillybus_wrapper_p_str7_rom_U> is equivalent to the following FF/Latch, which will be removed : <q0_2> 
+INFO:Xst:2261 - The FF/Latch <q0_1> in Unit <xillybus_wrapper_p_str7_rom_U> is equivalent to the following FF/Latch, which will be removed : <q0_3> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_5> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_5> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_6> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_6> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_7> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_7> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_0> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_0> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_1> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_1> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_2> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_2> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_3> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_3> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_4> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_4> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_5> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_5> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_6> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_6> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_0> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_0> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_7> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_7> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_4> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_4> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_1> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_1> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_5> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_5> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_0> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_0> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_2> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_2> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_6> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_6> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_1> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_1> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_3> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_3> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_7> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_7> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_2> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_2> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_4> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_4> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_3> in Unit <HLS_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_3> 
+WARNING:Xst:1710 - FF/Latch <q0_0> (without init value) has a constant value of 0 in block <xillybus_wrapper_p_str7_rom_U>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <p_str7_load_cast_reg_428_2> (without init value) has a constant value of 0 in block <HLS_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <p_str7_load_cast_reg_428_0> (without init value) has a constant value of 0 in block <HLS_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <y_reg_433_9> (without init value) has a constant value of 0 in block <HLS_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <y_reg_433<9:9>> (without init value) have a constant value of 0 in block <xillybus_wrapper>.
+
+Synthesizing (advanced) Unit <i2s_audio>.
+The following registers are absorbed into counter <clk_div>: 1 register on signal <clk_div>.
+Unit <i2s_audio> synthesized (advanced).
+
+Synthesizing (advanced) Unit <smbus>.
+The following registers are absorbed into counter <div_counter>: 1 register on signal <div_counter>.
+The following registers are absorbed into counter <idx>: 1 register on signal <idx>.
+Unit <smbus> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper>.
+	Adder/Subtractor <Madd_mul_fu_320_p00<9:0>> in block <xillybus_wrapper> and  <Mmult_n0381> in block <xillybus_wrapper> are combined into a MULT with pre-adder <Mmult_n03811>.
+Unit <xillybus_wrapper> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_p_str3_rom>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_p_str3_rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_p_str4_rom>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_addr0[1]_read_port_1_OUT>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 7-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_p_str4_rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_p_str5_rom>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_p_str5_rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_p_str6_rom>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_p_str6_rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_xilly_decprint>.
+The following registers are absorbed into accumulator <v_fu_34>: 1 register on signal <v_fu_34>.
+The following registers are absorbed into counter <x_reg_110>: 1 register on signal <x_reg_110>.
+Unit <xillybus_wrapper_xilly_decprint> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_xilly_decprint_out_ram>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 11-word x 8-bit                     |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we0_0>         | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <d0>            |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_xilly_decprint_out_ram> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillybus_wrapper_xilly_decprint_powers10_rom>.
+INFO:Xst:3216 - HDL ADVISOR - LUT implementation is currently selected for the RAM <Mram_ram>. If you want the register to be removed and the RAM to be implemented as block RAM, please change the RAM implementation style accordingly.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 10-word x 28-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr0>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillybus_wrapper_xilly_decprint_powers10_rom> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xillydemo>.
+INFO:Xst:3231 - The small RAM <Mram_demoarray> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <bus_clk>       | rise     |
+    |     weA            | connected to signal <user_w_mem_8_wren> | high     |
+    |     addrA          | connected to signal <user_mem_8_addr> |          |
+    |     diA            | connected to signal <user_w_mem_8_data> |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_litearray0> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <user_clk>      | rise     |
+    |     weA            | connected to signal <user_wstrb<0>> | high     |
+    |     addrA          | connected to signal <user_addr>     |          |
+    |     diA            | connected to signal <user_wr_data<7:0>> |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_litearray1> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <user_clk>      | rise     |
+    |     weA            | connected to signal <user_wstrb<1>> | high     |
+    |     addrA          | connected to signal <user_addr>     |          |
+    |     diA            | connected to signal <user_wr_data<15:8>> |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_litearray2> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <user_clk>      | rise     |
+    |     weA            | connected to signal <user_wstrb<2>> | high     |
+    |     addrA          | connected to signal <user_addr>     |          |
+    |     diA            | connected to signal <user_wr_data<23:16>> |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3231 - The small RAM <Mram_litearray3> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 8-bit                     |          |
+    |     clkA           | connected to signal <user_clk>      | rise     |
+    |     weA            | connected to signal <user_wstrb<3>> | high     |
+    |     addrA          | connected to signal <user_addr>     |          |
+    |     diA            | connected to signal <user_wr_data<31:24>> |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <xillydemo> synthesized (advanced).
+WARNING:Xst:2677 - Node <tmp_4_reg_292_4> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 11
+ 10x28-bit single-port distributed Read Only RAM       : 1
+ 11x8-bit single-port distributed RAM                  : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 32x8-bit single-port distributed RAM                  : 5
+ 4x7-bit single-port distributed Read Only RAM         : 1
+ 4x8-bit single-port distributed Read Only RAM         : 2
+# MACs                                                 : 1
+ 10x11-to-21-bit Mult with pre-adder                   : 1
+# Adders/Subtractors                                   : 8
+ 2-bit adder                                           : 1
+ 32-bit adder                                          : 2
+ 4-bit adder                                           : 3
+ 5-bit subtractor                                      : 1
+ 9-bit adder                                           : 1
+# Counters                                             : 4
+ 12-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 3-bit down counter                                    : 1
+ 8-bit up counter                                      : 1
+# Accumulators                                         : 1
+ 32-bit down loadable accumulator                      : 1
+# Registers                                            : 531
+ Flip-Flops                                            : 531
+# Comparators                                          : 2
+ 32-bit comparator greater                             : 2
+# Multiplexers                                         : 42
+ 1-bit 2-to-1 multiplexer                              : 25
+ 1-bit 8-to-1 multiplexer                              : 1
+ 16-bit 2-to-1 multiplexer                             : 2
+ 32-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 2
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 9
+# FSMs                                                 : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <q0_0> (without init value) has a constant value of 0 in block <xillybus_wrapper_p_str7_rom>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <q0_2> (without init value) has a constant value of 0 in block <xillybus_wrapper_p_str7_rom>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_5> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_5> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_6> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_6> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_7> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_7> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_0> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_0> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_1> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_1> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_2> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_2> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_3> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_3> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_4> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_4> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_5> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_5> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_6> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_6> 
+INFO:Xst:2261 - The FF/Latch <b_reg_368_0> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_cast4_reg_393_0> 
+INFO:Xst:2261 - The FF/Latch <g_cast5_reg_388_7> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <g_reg_383_7> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_4> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_4> 
+INFO:Xst:2261 - The FF/Latch <b_reg_368_1> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_cast4_reg_393_1> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_5> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_5> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_0> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_0> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_2> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_2> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_6> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_6> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_1> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_1> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_3> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_3> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_7> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_7> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_2> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_2> 
+INFO:Xst:2261 - The FF/Latch <b_cast4_reg_393_4> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <b_reg_368_4> 
+INFO:Xst:2261 - The FF/Latch <r_cast6_reg_378_3> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <r_reg_373_3> 
+INFO:Xst:2261 - The FF/Latch <powers10_load_cast_reg_297_27> in Unit <xillybus_wrapper_xilly_decprint> is equivalent to the following 2 FFs/Latches, which will be removed : <powers10_load_cast_reg_297_29> <powers10_load_cast_reg_297_28> 
+INFO:Xst:2261 - The FF/Latch <q0_1> in Unit <xillybus_wrapper_p_str7_rom> is equivalent to the following FF/Latch, which will be removed : <q0_3> 
+INFO:Xst:2261 - The FF/Latch <p_str7_load_cast_reg_428_0> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <p_str7_load_cast_reg_428_2> 
+INFO:Xst:2261 - The FF/Latch <p_str7_load_cast_reg_428_3> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <p_str7_load_cast_reg_428_1> 
+WARNING:Xst:1710 - FF/Latch <p_str7_load_cast_reg_428_0> (without init value) has a constant value of 0 in block <xillybus_wrapper>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <smbus/FSM_3> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0001  | 0001
+ 0010  | 0010
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 1000  | 1000
+ 1011  | 1011
+ 1001  | 1001
+ 1010  | 1010
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <HLS_wrapper/FSM_0> on signal <ap_CS_fsm[1:20]> with user encoding.
+----------------------------------------------
+ State                | Encoding
+----------------------------------------------
+ 00000000000000000001 | 00000000000000000001
+ 00000000000000000010 | 00000000000000000010
+ 00000000000000000100 | 00000000000000000100
+ 00000000000000001000 | 00000000000000001000
+ 00000000000000010000 | 00000000000000010000
+ 00000000000000100000 | 00000000000000100000
+ 00000000000001000000 | 00000000000001000000
+ 00000000000010000000 | 00000000000010000000
+ 00000000000100000000 | 00000000000100000000
+ 00000000001000000000 | 00000000001000000000
+ 00000000010000000000 | 00000000010000000000
+ 00000000100000000000 | 00000000100000000000
+ 00000001000000000000 | 00000001000000000000
+ 00000010000000000000 | 00000010000000000000
+ 00000100000000000000 | 00000100000000000000
+ 00001000000000000000 | 00001000000000000000
+ 00010000000000000000 | 00010000000000000000
+ 00100000000000000000 | 00100000000000000000
+ 01000000000000000000 | 01000000000000000000
+ 10000000000000000000 | 10000000000000000000
+----------------------------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/FSM_1> on signal <ap_CS_fsm[1:7]> with user encoding.
+---------------------
+ State   | Encoding
+---------------------
+ 0000001 | 0000001
+ 0000010 | 0000010
+ 0000100 | 0000100
+ 0001000 | 0001000
+ 0010000 | 0010000
+ 0100000 | 0100000
+ 1000000 | 1000000
+---------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/FSM_2> on signal <ap_CS_fsm[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0001  | 0001
+ 0010  | 0010
+ 0100  | 0100
+ 1000  | 1000
+-------------------
+WARNING:Xst:1710 - FF/Latch <first_reg_87_31> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_30> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_29> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_28> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_27> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_26> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_25> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_24> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_23> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_22> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_21> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_20> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_19> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_18> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_17> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_16> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_15> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_14> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_13> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_12> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_11> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_10> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_9> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_8> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_7> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_6> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_5> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <first_reg_87_4> (without init value) has a constant value of 0 in block <xillybus_wrapper_xilly_decprint>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <q0_7> (without init value) has a constant value of 0 in block <xillybus_wrapper_p_str5_rom>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <q0_7> (without init value) has a constant value of 0 in block <xillybus_wrapper_p_str6_rom>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_4> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_5> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_6> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_7> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_8> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_9> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_10> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_11> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_12> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_13> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_14> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_15> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_16> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_17> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_18> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_19> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_20> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_21> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_22> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_23> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_24> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_25> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_26> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_27> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_28> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_29> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_30> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_rec_i_reg_321_31> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_4> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_5> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_6> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_7> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_8> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_9> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_10> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_11> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_12> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_13> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_14> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_15> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_16> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_17> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_18> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_19> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_20> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_21> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_22> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_23> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_24> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_25> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_26> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_27> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_28> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_29> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_30> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_i_reg_121_31> of sequential type is unconnected in block <xillybus_wrapper_xilly_decprint>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_2> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_3> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_4> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_5> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_6> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_7> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_8> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_9> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_10> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_11> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_12> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_13> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_14> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_15> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_16> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_17> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_18> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_19> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_20> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_21> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_22> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_23> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_24> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_25> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_26> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_27> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_28> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_29> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_30> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_0_rec_reg_24_31> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_2> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_3> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_4> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_5> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_6> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_7> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_8> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_9> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_10> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_11> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_12> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_13> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_14> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_15> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_16> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_17> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_18> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_19> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_20> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_21> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_22> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_23> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_24> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_25> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_26> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_27> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_28> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_29> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_30> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+WARNING:Xst:2677 - Node <p_rec_reg_67_31> of sequential type is unconnected in block <xillybus_wrapper_xilly_puts_1>.
+INFO:Xst:2261 - The FF/Latch <q0_11> in Unit <xillybus_wrapper_xilly_decprint_powers10_rom> is equivalent to the following 2 FFs/Latches, which will be removed : <q0_25> <q0_27> 
+INFO:Xst:2261 - The FF/Latch <q0_20> in Unit <xillybus_wrapper_xilly_decprint_powers10_rom> is equivalent to the following FF/Latch, which will be removed : <q0_23> 
+INFO:Xst:2261 - The FF/Latch <q0_21> in Unit <xillybus_wrapper_xilly_decprint_powers10_rom> is equivalent to the following 2 FFs/Latches, which will be removed : <q0_22> <q0_26> 
+INFO:Xst:2261 - The FF/Latch <q0_0> in Unit <xillybus_wrapper_p_str4_rom> is equivalent to the following 2 FFs/Latches, which will be removed : <q0_2> <q0_3> 
+INFO:Xst:2261 - The FF/Latch <q0_1> in Unit <xillybus_wrapper_p_str4_rom> is equivalent to the following FF/Latch, which will be removed : <q0_6> 
+INFO:Xst:2261 - The FF/Latch <q0_4> in Unit <xillybus_wrapper_p_str4_rom> is equivalent to the following FF/Latch, which will be removed : <q0_5> 
+INFO:Xst:2261 - The FF/Latch <q0_0> in Unit <xillybus_wrapper_p_str5_rom> is equivalent to the following FF/Latch, which will be removed : <q0_2> 
+INFO:Xst:2261 - The FF/Latch <q0_1> in Unit <xillybus_wrapper_p_str5_rom> is equivalent to the following FF/Latch, which will be removed : <q0_6> 
+INFO:Xst:2261 - The FF/Latch <q0_3> in Unit <xillybus_wrapper_p_str5_rom> is equivalent to the following FF/Latch, which will be removed : <q0_4> 
+INFO:Xst:2261 - The FF/Latch <q0_0> in Unit <xillybus_wrapper_p_str6_rom> is equivalent to the following 3 FFs/Latches, which will be removed : <q0_2> <q0_3> <q0_4> 
+INFO:Xst:2261 - The FF/Latch <q0_1> in Unit <xillybus_wrapper_p_str6_rom> is equivalent to the following FF/Latch, which will be removed : <q0_6> 
+INFO:Xst:2261 - The FF/Latch <p_str4_load_cast_reg_415_3> in Unit <xillybus_wrapper> is equivalent to the following 2 FFs/Latches, which will be removed : <p_str4_load_cast_reg_415_2> <p_str4_load_cast_reg_415_0> 
+INFO:Xst:2261 - The FF/Latch <p_str4_load_cast_reg_415_6> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <p_str4_load_cast_reg_415_1> 
+INFO:Xst:2261 - The FF/Latch <p_str4_load_cast_reg_415_5> in Unit <xillybus_wrapper> is equivalent to the following FF/Latch, which will be removed : <p_str4_load_cast_reg_415_4> 
+
+Optimizing unit <xillydemo> ...
+
+Optimizing unit <xillybus> ...
+
+Optimizing unit <i2s_audio> ...
+
+Optimizing unit <xillybus_wrapper> ...
+
+Optimizing unit <xillybus_wrapper_xilly_decprint> ...
+
+Optimizing unit <xillybus_wrapper_xilly_decprint_powers10_rom> ...
+
+Optimizing unit <xillybus_wrapper_xilly_decprint_out_ram> ...
+
+Optimizing unit <xillybus_wrapper_xilly_puts_1> ...
+
+Optimizing unit <xillybus_wrapper_p_str3_rom> ...
+
+Optimizing unit <xillybus_wrapper_p_str5_rom> ...
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_7> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2399 - RAMs <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/Mram_ram6>, <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/Mram_ram5> are equivalent, second RAM is removed
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_8> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_9> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_10> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_11> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_12> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_13> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_14> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_15> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_16> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_17> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_18> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_19> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_20> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_21> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_22> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_23> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_24> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_25> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_26> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_27> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_28> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_29> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_30> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/v_fu_34_31> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <smbus/div_counter_11> (without init value) has a constant value of 0 in block <xillydemo>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/q0_5> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_U/xillybus_wrapper_xilly_decprint_out_ram_U/q0_4> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_load_reg_326_5> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/out_load_reg_326_4> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_11> in Unit <xillydemo> is equivalent to the following 2 FFs/Latches, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_25> <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_27> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_20> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_23> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_21> in Unit <xillydemo> is equivalent to the following 2 FFs/Latches, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_22> <HLS_wrapper/grp_xillybus_wrapper_xilly_decprint_fu_172/powers10_load_cast_reg_297_26> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_2> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_0> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_4> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_3> 
+INFO:Xst:2261 - The FF/Latch <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_6> in Unit <xillydemo> is equivalent to the following FF/Latch, which will be removed : <HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/str_load_reg_72_1> 
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<55>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<54>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<53>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<52>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<51>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<50>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<49>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<48>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<47>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<46>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<45>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<44>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<43>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<42>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<41>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<40>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<39>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<38>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<37>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<36>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<35>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<34>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<33>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<32>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<31>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<30>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<29>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<28>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<27>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<26>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<25>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<24>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<23>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<22>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<21>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<20>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<19>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<18>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<17>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<16>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<15>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<14>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<13>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<12>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<11>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<10>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<9>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<8>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<7>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<6>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<5>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<4>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<3>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<2>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<1>> driven by black box <system>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <PS_GPIO<0>> driven by black box <system>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block xillydemo, actual ratio is 5.
+INFO:Xst:2260 - The FF/Latch <rd_arbiter_ins/rd_arb_roundrobin_1> in Unit <xillybus_ins/xillybus_core_ins> is equivalent to the following FF/Latch : <rd_arbiter_ins/rd_arb_roundrobin_1_1> 
+INFO:Xst:2260 - The FF/Latch <rd_arbiter_ins/rd_arb_roundrobin_1> in Unit <xillybus_ins/xillybus_core_ins> is equivalent to the following FF/Latch : <rd_arbiter_ins/rd_arb_roundrobin_1_1> 
+Replicating register audio/audio_dac to handle IOB=TRUE attribute
+
+
+Final Macro Processing ...
+
+Processing Unit <xillydemo> :
+	Found 2-bit shift register for signal <smbus/SMBus_en>.
+Unit <xillydemo> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 379
+ Flip-Flops                                            : 379
+# Shift Registers                                      : 1
+ 2-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : xillydemo.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4901
+#      GND                         : 3
+#      INV                         : 162
+#      LUT1                        : 164
+#      LUT2                        : 393
+#      LUT3                        : 663
+#      LUT4                        : 576
+#      LUT5                        : 495
+#      LUT6                        : 951
+#      MUXCY                       : 793
+#      MUXF7                       : 16
+#      VCC                         : 2
+#      XORCY                       : 683
+# FlipFlops/Latches                : 3072
+#      FD                          : 355
+#      FDE                         : 1709
+#      FDR                         : 349
+#      FDRE                        : 494
+#      FDS                         : 20
+#      FDSE                        : 145
+# RAMS                             : 119
+#      RAM32M                      : 12
+#      RAM32X1D                    : 6
+#      RAM32X1S                    : 47
+#      RAM64M                      : 36
+#      RAM64X1D                    : 16
+#      RAMB18E1                    : 2
+# Shift Registers                  : 4
+#      SRLC16E                     : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 84
+#      IBUF                        : 4
+#      IOBUF                       : 1
+#      OBUF                        : 78
+#      OBUFT                       : 1
+# DSPs                             : 1
+#      DSP48E1                     : 1
+# Others                           : 7
+#      fifo_32x512                 : 4
+#      fifo_8x2048                 : 2
+#      system                      : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z020clg484-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            3053  out of  106400     2%  
+ Number of Slice LUTs:                 3691  out of  53200     6%  
+    Number used as Logic:              3404  out of  53200     6%  
+    Number used as Memory:              287  out of  17400     1%  
+       Number used as RAM:              283
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   4893
+   Number with an unused Flip Flop:    1840  out of   4893    37%  
+   Number with an unused LUT:          1202  out of   4893    24%  
+   Number of fully used LUT-FF pairs:  1851  out of   4893    37%  
+   Number of unique control sets:       281
+
+IO Utilization: 
+ Number of IOs:                          85
+ Number of bonded IOBs:                  85  out of    200    42%  
+    IOB Flip Flops/Latches:              19
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    140     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+ Number of DSP48E1s:                      1  out of    220     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)            | Load  |
+-----------------------------------+----------------------------------+-------+
+bus_clk                            | NONE(user_r_mem_8_data_0)        | 3115  |
+user_clk                           | NONE(user_rd_data_0)             | 64    |
+clk_100                            | BUFGP                            | 3     |
+xillybus_ins/vga_clk               | NONE(xillybus_ins/vga_iob_ff<13>)| 14    |
+-----------------------------------+----------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------+
+Control Signal                                                                                | Buffer(FF name)                                                        | Load  |
+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------+
+xillybus_ins/xillybus_core_ins/M_AXI_ACP_AWPROT_w<0>(xillybus_ins/xillybus_core_ins/XST_GND:G)| NONE(xillybus_ins/xillybus_core_ins/axi4_send_dma_ins/Mram_dma_address)| 12    |
+xillybus_ins/xillybus_core_ins/M_AXI_ACP_BREADY_w(xillybus_ins/xillybus_core_ins/XST_VCC:P)   | NONE(xillybus_ins/xillybus_core_ins/axi4_send_dma_ins/Mram_dma_address)| 8     |
+----------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 6.877ns (Maximum Frequency: 145.412MHz)
+   Minimum input arrival time before clock: 3.834ns
+   Maximum output required time after clock: 3.041ns
+   Maximum combinational path delay: 2.726ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'bus_clk'
+  Clock period: 6.877ns (frequency: 145.412MHz)
+  Total number of paths / destination ports: 135140 / 6641
+-------------------------------------------------------------------------
+Delay:               6.877ns (Levels of Logic = 9)
+  Source:            HLS_wrapper/b_reg_368_0 (FF)
+  Destination:       HLS_wrapper/Mmult_n03811 (DSP)
+  Source Clock:      bus_clk rising
+  Destination Clock: bus_clk rising
+
+  Data Path: HLS_wrapper/b_reg_368_0 to HLS_wrapper/Mmult_n03811
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.282   0.491  HLS_wrapper/b_reg_368_0 (HLS_wrapper/b_reg_368_0)
+     LUT2:I0->O            1   0.053   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_lut<0> (HLS_wrapper/Madd_tmp1_fu_303_p2_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<0> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<1> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<2> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<3> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<4> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<5> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  HLS_wrapper/Madd_tmp1_fu_303_p2_cy<6> (HLS_wrapper/Madd_tmp1_fu_303_p2_cy<6>)
+     XORCY:CI->O           1   0.320   0.399  HLS_wrapper/Madd_tmp1_fu_303_p2_xor<7> (HLS_wrapper/tmp1_fu_303_p2<7>)
+     DSP48E1:D7                4.951          HLS_wrapper/Mmult_n03811
+    ----------------------------------------
+    Total                      6.877ns (5.987ns logic, 0.890ns route)
+                                       (87.1% logic, 12.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'user_clk'
+  Clock period: 1.171ns (frequency: 853.971MHz)
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Delay:               1.171ns (Levels of Logic = 0)
+  Source:            Mram_litearray01 (RAM)
+  Destination:       user_rd_data_0 (FF)
+  Source Clock:      user_clk rising
+  Destination Clock: user_clk rising
+
+  Data Path: Mram_litearray01 to user_rd_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM32X1S:WCLK->O      1   0.761   0.399  Mram_litearray01 (_n0069<0>)
+     FDE:D                     0.011          user_rd_data_0
+    ----------------------------------------
+    Total                      1.171ns (0.772ns logic, 0.399ns route)
+                                       (65.9% logic, 34.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_100'
+  Clock period: 1.164ns (frequency: 859.106MHz)
+  Total number of paths / destination ports: 4 / 3
+-------------------------------------------------------------------------
+Delay:               1.164ns (Levels of Logic = 1)
+  Source:            audio/clk_div_0 (FF)
+  Destination:       audio/clk_div_0 (FF)
+  Source Clock:      clk_100 rising
+  Destination Clock: clk_100 rising
+
+  Data Path: audio/clk_div_0 to audio/clk_div_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.282   0.405  audio/clk_div_0 (audio/clk_div_0)
+     INV:I->O              1   0.067   0.399  audio/Mcount_clk_div_xor<0>11_INV_0 (audio/Result<0>)
+     FD:D                      0.011          audio/clk_div_0
+    ----------------------------------------
+    Total                      1.164ns (0.360ns logic, 0.804ns route)
+                                       (30.9% logic, 69.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'user_clk'
+  Total number of paths / destination ports: 416 / 288
+-------------------------------------------------------------------------
+Offset:              1.015ns (Levels of Logic = 1)
+  Source:            xillybus_ins/system_i:xillybus_lite_0_user_addr_pin<2> (PAD)
+  Destination:       user_rd_data_0 (FF)
+  Destination Clock: user_clk rising
+
+  Data Path: xillybus_ins/system_i:xillybus_lite_0_user_addr_pin<2> to user_rd_data_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    system:xillybus_lite_0_user_addr_pin<2>   32   0.000   0.552  xillybus_ins/system_i (user_addr<2>)
+     RAM32X1S:A0->O        1   0.053   0.399  Mram_litearray03 (_n0069<2>)
+     FDE:D                     0.011          user_rd_data_2
+    ----------------------------------------
+    Total                      1.015ns (0.064ns logic, 0.951ns route)
+                                       (6.3% logic, 93.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'bus_clk'
+  Total number of paths / destination ports: 2588 / 1789
+-------------------------------------------------------------------------
+Offset:              3.834ns (Levels of Logic = 8)
+  Source:            audio/record_fifo:empty (PAD)
+  Destination:       xillybus_ins/xillybus_core_ins/unitw_6_ins/unitw_6_active (FF)
+  Destination Clock: bus_clk rising
+
+  Data Path: audio/record_fifo:empty to xillybus_ins/xillybus_core_ins/unitw_6_ins/unitw_6_active
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    fifo_32x512:empty      8   0.000   0.000  audio/record_fifo (user_r_audio_empty)
+     begin scope: 'xillybus_ins/xillybus_core_ins:user_r_audio_empty_w'
+     LUT3:I0->O            2   0.053   0.641  unitw_6_ins/unitw_6_submit_buffer11 (unitw_6_ins/unitw_6_submit_buffer1)
+     LUT5:I1->O            1   0.053   0.413  unitw_6_ins/unitw_6_submit_buffer2 (unitw_6_ins/unitw_6_submit_buffer3)
+     LUT6:I5->O            2   0.053   0.419  unitw_6_ins/unitw_6_submit_buffer5 (unitw_6_ins/unitw_6_submit_buffer6)
+     LUT6:I5->O           15   0.053   0.505  unitw_6_ins/unitw_6_submit_buffer6 (unitw_6_ins/unitw_6_submit_buffer)
+     LUT3:I2->O            1   0.053   0.413  unitw_6_ins/_n0451_inv_SW0 (N214)
+     LUT5:I4->O            1   0.053   0.413  unitw_6_ins/unitw_6_active_glue_set_SW0 (N332)
+     LUT6:I5->O            1   0.053   0.000  unitw_6_ins/unitw_6_active_glue_set (unitw_6_ins/unitw_6_active_glue_set)
+     FDR:D                     0.011          unitw_6_ins/unitw_6_active
+    ----------------------------------------
+    Total                      3.834ns (1.030ns logic, 2.804ns route)
+                                       (26.9% logic, 73.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'xillybus_ins/vga_clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              0.410ns (Levels of Logic = 0)
+  Source:            xillybus_ins/system_i:xillyvga_0_vga_red<7> (PAD)
+  Destination:       xillybus_ins/vga_iob_ff<13> (FF)
+  Destination Clock: xillybus_ins/vga_clk rising
+
+  Data Path: xillybus_ins/system_i:xillyvga_0_vga_red<7> to xillybus_ins/vga_iob_ff<13>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    system:xillyvga_0_vga_red<7>    1   0.000   0.399  xillybus_ins/system_i (xillybus_ins/xillyvga_0_vga_red<7>)
+     FD:D                      0.011          xillybus_ins/vga_iob_ff<13>
+    ----------------------------------------
+    Total                      0.410ns (0.011ns logic, 0.399ns route)
+                                       (2.7% logic, 97.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'bus_clk'
+  Total number of paths / destination ports: 561 / 323
+-------------------------------------------------------------------------
+Offset:              3.041ns (Levels of Logic = 4)
+  Source:            HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_FSM_FFd1 (FF)
+  Destination:       fifo_8:din<3> (PAD)
+  Source Clock:      bus_clk rising
+
+  Data Path: HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_FSM_FFd1 to fifo_8:din<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.282   0.616  HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_FSM_FFd1 (HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_FSM_FFd1)
+     LUT3:I0->O            4   0.053   0.745  HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_debug_out_ap_vld1 (HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183_debug_out_ap_vld)
+     LUT5:I0->O           11   0.053   0.701  HLS_wrapper/ap_CS_fsm_PWR_8_o_PWR_8_o_OR_63_o1 (HLS_wrapper/PWR_8_o_PWR_8_o_OR_63_o)
+     LUT6:I2->O            1   0.053   0.485  HLS_wrapper/Mmux_debug_out811 (HLS_wrapper/Mmux_debug_out81)
+     LUT6:I4->O            0   0.053   0.000  HLS_wrapper/Mmux_debug_out813 (debug_out_din<0>)
+    fifo_8x2048:din<0>         0.000          fifo_8
+    ----------------------------------------
+    Total                      3.041ns (0.494ns logic, 2.547ns route)
+                                       (16.2% logic, 83.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'xillybus_ins/vga_clk'
+  Total number of paths / destination ports: 14 / 14
+-------------------------------------------------------------------------
+Offset:              0.681ns (Levels of Logic = 1)
+  Source:            xillybus_ins/vga_iob_ff<5> (FF)
+  Destination:       vga4_blue<3> (PAD)
+  Source Clock:      xillybus_ins/vga_clk rising
+
+  Data Path: xillybus_ins/vga_iob_ff<5> to vga4_blue<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.282   0.399  xillybus_ins/vga_iob_ff<5> (vga4_blue_3_OBUF)
+     OBUF:I->O                 0.000          vga4_blue_3_OBUF (vga4_blue<3>)
+    ----------------------------------------
+    Total                      0.681ns (0.282ns logic, 0.399ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_100'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.681ns (Levels of Logic = 1)
+  Source:            audio/audio_mclk (FF)
+  Destination:       audio_mclk (PAD)
+  Source Clock:      clk_100 rising
+
+  Data Path: audio/audio_mclk to audio_mclk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.282   0.399  audio/audio_mclk (audio/audio_mclk)
+     OBUF:I->O                 0.000          audio_mclk_OBUF (audio_mclk)
+    ----------------------------------------
+    Total                      0.681ns (0.282ns logic, 0.399ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'user_clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.282ns (Levels of Logic = 0)
+  Source:            user_rd_data_sliced_sliced_0 (FF)
+  Destination:       xillybus_ins/system_i:xillybus_lite_0_user_rd_data_pin<31> (PAD)
+  Source Clock:      user_clk rising
+
+  Data Path: user_rd_data_sliced_sliced_0 to xillybus_ins/system_i:xillybus_lite_0_user_rd_data_pin<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              0   0.282   0.000  user_rd_data_sliced_sliced_0 (user_rd_data_sliced_sliced_0)
+    system:xillybus_lite_0_user_rd_data_pin<31>        0.000          xillybus_ins/system_i
+    ----------------------------------------
+    Total                      0.282ns (0.282ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 102 / 81
+-------------------------------------------------------------------------
+Delay:               2.726ns (Levels of Logic = 4)
+  Source:            fifo_8:full (PAD)
+  Destination:       fifo_8:din<3> (PAD)
+
+  Data Path: fifo_8:full to fifo_8:din<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    fifo_8x2048:full      16   0.000   0.583  fifo_8 (debug_out_full)
+     LUT3:I1->O            4   0.053   0.745  HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183/ap_CS_fsm_debug_out_ap_vld1 (HLS_wrapper/grp_xillybus_wrapper_xilly_puts_1_fu_183_debug_out_ap_vld)
+     LUT5:I0->O           11   0.053   0.701  HLS_wrapper/ap_CS_fsm_PWR_8_o_PWR_8_o_OR_63_o1 (HLS_wrapper/PWR_8_o_PWR_8_o_OR_63_o)
+     LUT6:I2->O            1   0.053   0.485  HLS_wrapper/Mmux_debug_out811 (HLS_wrapper/Mmux_debug_out81)
+     LUT6:I4->O            0   0.053   0.000  HLS_wrapper/Mmux_debug_out813 (debug_out_din<0>)
+    fifo_8x2048:din<0>         0.000          fifo_8
+    ----------------------------------------
+    Total                      2.726ns (0.212ns logic, 2.514ns route)
+                                       (7.8% logic, 92.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock bus_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+bus_clk        |    6.877|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_100
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100        |    1.164|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock user_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+user_clk       |    1.171|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 46.00 secs
+Total CPU time to Xst completion: 45.35 secs
+ 
+--> 
+
+Total memory usage is 314852 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  338 (   0 filtered)
+Number of infos    :  107 (   0 filtered)
+

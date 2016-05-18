@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed May 18 12:12:20 2016
+# Process ID: 8568
+# Log file: C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/vivado/xillydemo.runs/impl_1/xillydemo.vdi
+# Journal file: C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/verilog/vivado/xillydemo.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source xillydemo.tcl -notrace

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTMG-274] Memory 'xillybus_wrapper_p_str6' is read-only, switch it to a ROM." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:08.911+0200" type="Warning"/>
+        <logs message="@W [RTMG-274] Memory 'xillybus_wrapper_p_str5' is read-only, switch it to a ROM." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:08.838+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global array 'p_str7' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.348+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global array 'p_str6' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.271+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global array 'p_str5' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.250+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global array 'p_str4' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.233+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global scalar 'debug_out' will be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.188+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global scalar 'debug_ready' will be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.172+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Global array 'p_str3' will not be exposed as RTL port." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:07.154+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/out' to 'xillybus_wrapper/out_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:05.449+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'xillybus_wrapper/in' to 'xillybus_wrapper/in_r' to avoid conflict or HDL keywords." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:05.429+0200" type="Warning"/>
+        <logs message="@W [SYN-103] Legalizing function name 'xillybus_wrapper_xilly_puts.1' to 'xillybus_wrapper_xilly_puts_1'." projectName="coprocess" solutionName="example" date="2016-05-16T17:09:05.412+0200" type="Warning"/>
+        <logs message="@W [LIC-102] License feature [VIVADO_HLS] is expiring in 7 days." projectName="coprocess" solutionName="example" date="2016-05-16T17:08:46.827+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

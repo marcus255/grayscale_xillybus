@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vhdl/src/fifo_32x512.v -lang verilog -prj xillydemo -o fifo_32x512.spl -module fifo_32x512 -template C:/Xilinx/14.1/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family zynq fifo_32x512.spl C:/Users/marcus255/Downloads/xillydemo_ise/xillinux-eval-zedboard-1.3c/vhdl/fifo_32x512.sym 

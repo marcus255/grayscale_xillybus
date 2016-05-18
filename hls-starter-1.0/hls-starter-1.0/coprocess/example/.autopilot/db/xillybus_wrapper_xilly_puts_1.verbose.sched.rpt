@@ -1,0 +1,207 @@
+
+
+================================================================
+== Vivado HLS Report for 'xillybus_wrapper_xilly_puts_1'
+================================================================
+* Date:           Mon May 16 17:09:05 2016
+
+* Version:        2014.4 (Build 1071461 on Tue Nov 18 16:42:57 PM 2014)
+* Project:        coprocess
+* Solution:       example
+* Product family: zynq
+* Target device:  xc7z020clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |  10.00|      4.39|        1.25|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |             |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  | min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1     |    ?|    ?|         ?|          -|          -|     ?|    no    |
+        | + Loop 1.1  |    ?|    ?|         1|          -|          -|     ?|    no    |
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 1
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 4
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / (!tmp)
+4 --> 
+	4  / (!tmp_3)
+	2  / (tmp_3)
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_5 [1/1] 1.57ns
+:0  br label %1
+
+
+ <State 2>: 2.44ns
+ST_2: p_0_rec [1/1] 0.00ns
+:0  %p_0_rec = phi i32 [ 0, %0 ], [ %p_rec, %2 ]
+
+ST_2: str_addr [1/1] 0.00ns
+:1  %str_addr = getelementptr [4 x i8]* %str, i32 0, i32 %p_0_rec
+
+ST_2: str_load [2/2] 2.39ns
+:2  %str_load = load i8* %str_addr, align 1
+
+ST_2: p_rec [1/1] 2.44ns
+:4  %p_rec = add i32 %p_0_rec, 1
+
+
+ <State 3>: 4.39ns
+ST_3: str_load [1/2] 2.39ns
+:2  %str_load = load i8* %str_addr, align 1
+
+ST_3: tmp [1/1] 2.00ns
+:3  %tmp = icmp eq i8 %str_load, 0
+
+ST_3: stg_12 [1/1] 0.00ns
+:5  br i1 %tmp, label %3, label %.preheader
+
+ST_3: stg_13 [1/1] 0.00ns
+:0  ret void
+
+
+ <State 4>: 0.00ns
+ST_4: debug_ready_load [1/1] 0.00ns
+.preheader:0  %debug_ready_load = load volatile i8* @debug_ready, align 1
+
+ST_4: tmp_3 [1/1] 0.00ns
+.preheader:1  %tmp_3 = trunc i8 %debug_ready_load to i1
+
+ST_4: stg_16 [1/1] 0.00ns
+.preheader:2  br i1 %tmp_3, label %2, label %.preheader
+
+ST_4: stg_17 [1/1] 0.00ns
+:0  store volatile i8 %str_load, i8* @debug_out, align 1
+
+ST_4: stg_18 [1/1] 0.00ns
+:1  br label %1
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
