@@ -6,7 +6,7 @@ Przeprowadziliśmy syntezę plików z kodem i otrzymaliśmy plik xillybus_wrappe
 https://github.com/marcus255/grayscale_xillybus/blob/master/hls-starter-1.0/hls-starter-1.0/coprocess/example/syn/verilog/xillybus_wrapper.v
 
 Vivado:
-Pobraliśmy ze strony xillybus.com projekt xillinux-eval-zedboard-1.3c dla Zedboarda, tam dokonaliśmy edycji pliku xillydemo.v, o tego:
+Pobraliśmy boot partition kit http://xillybus.com/downloads/xillinux-eval-zedboard-1.3c.zip, tam dokonaliśmy edycji pliku xillydemo.v, o tego:
 https://github.com/marcus255/grayscale_xillybus/blob/master/xillinux-eval-zedboard-1.3c/verilog/src/xillydemo.v
 Następnie do drzewa projektu dodaliśmy wygenerowany wcześniej w HLS plik xillybus_wrapper.v. 
 Po wygenerowaniu bitstreama wrzuciliśmy plik xillydemo.bit na kartę. O ten plik:
